@@ -1,0 +1,13 @@
+# Python packages for the scripts in work/ that run outside Blender.
+# (Blender scripts use Blender's own Python: bpy, bmesh, mathutils.)
+numpy
+scipy
+shapely
+pdfplumber
+Pillow
+opencv-python-headless
+mapbox-earcut
+pyproj
+matplotlib
+pycollada        # KMZ build (p8_build_kmz.py)
+playwright       # optional: headless viewer screenshots (p8_shoot_viewer.py)

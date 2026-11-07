@@ -1,0 +1,623 @@
+{
+ "CAM_P4_NB": {
+  "pos": [
+   91.44,
+   13.716,
+   30.48
+  ],
+  "fwd": [
+   -0.6029,
+   -0.2077,
+   -0.7703
+  ],
+  "up": [
+   -0.128,
+   0.9782,
+   -0.1635
+  ],
+  "type": "PERSP",
+  "lens": 24.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 2000.0,
+  "note": ""
+ },
+ "CAM_P4_PlanCheck": {
+  "pos": [
+   65.532,
+   45.72,
+   -6.096
+  ],
+  "fwd": [
+   -0.0,
+   -1.0,
+   0.0
+  ],
+  "up": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "type": "ORTHO",
+  "lens": 50.0,
+  "sensor": 36.0,
+  "ortho": 54.86399841308594,
+  "clip_end": 500.0,
+  "note": ""
+ },
+ "CAM_P4_SB": {
+  "pos": [
+   -76.2,
+   13.716,
+   36.576
+  ],
+  "fwd": [
+   0.5423,
+   -0.2101,
+   -0.8135
+  ],
+  "up": [
+   0.1166,
+   0.9777,
+   -0.1749
+  ],
+  "type": "PERSP",
+  "lens": 24.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 2000.0,
+  "note": ""
+ },
+ "CAM_P5_ArmA_WBdriver": {
+  "pos": [
+   -41.148,
+   2.4384,
+   -4.2672
+  ],
+  "fwd": [
+   -0.9935,
+   0.0963,
+   0.0608
+  ],
+  "up": [
+   0.0961,
+   0.9954,
+   -0.0059
+  ],
+  "type": "PERSP",
+  "lens": 45.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 1000.0,
+  "note": ""
+ },
+ "CAM_P5_ArmL_NBdriver": {
+  "pos": [
+   70.7136,
+   2.7432,
+   22.86
+  ],
+  "fwd": [
+   -0.329,
+   0.0538,
+   -0.9428
+  ],
+  "up": [
+   0.0177,
+   0.9986,
+   0.0508
+  ],
+  "type": "PERSP",
+  "lens": 40.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 1000.0,
+  "note": ""
+ },
+ "CAM_P5_NB": {
+  "pos": [
+   91.44,
+   13.716,
+   30.48
+  ],
+  "fwd": [
+   -0.6029,
+   -0.2077,
+   -0.7703
+  ],
+  "up": [
+   -0.128,
+   0.9782,
+   -0.1635
+  ],
+  "type": "PERSP",
+  "lens": 24.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 2000.0,
+  "note": ""
+ },
+ "CAM_P5_SB": {
+  "pos": [
+   -76.2,
+   13.716,
+   36.576
+  ],
+  "fwd": [
+   0.5423,
+   -0.2101,
+   -0.8135
+  ],
+  "up": [
+   0.1166,
+   0.9777,
+   -0.1749
+  ],
+  "type": "PERSP",
+  "lens": 24.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 2000.0,
+  "note": ""
+ },
+ "CAM_P5b_NB_Ramps": {
+  "pos": [
+   94.488,
+   2.7432,
+   25.908
+  ],
+  "fwd": [
+   -0.5936,
+   -0.1802,
+   -0.7844
+  ],
+  "up": [
+   -0.1087,
+   0.9836,
+   -0.1437
+  ],
+  "type": "PERSP",
+  "lens": 32.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 1000.0,
+  "note": ""
+ },
+ "CAM_P5b_SB_Ramps": {
+  "pos": [
+   -59.436,
+   2.7432,
+   10.668
+  ],
+  "fwd": [
+   -0.5204,
+   -0.2328,
+   -0.8216
+  ],
+  "up": [
+   -0.1246,
+   0.9725,
+   -0.1967
+  ],
+  "type": "PERSP",
+  "lens": 35.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 1000.0,
+  "note": ""
+ },
+ "CAM_P7_APS_D": {
+  "pos": [
+   -51.324,
+   1.5502,
+   -14.7592
+  ],
+  "fwd": [
+   -0.2739,
+   -0.0636,
+   -0.9597
+  ],
+  "up": [
+   -0.0175,
+   0.998,
+   -0.0612
+  ],
+  "type": "PERSP",
+  "lens": 35.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 2000.0,
+  "note": "Close-up of APS pedestal pole D: push button PB1 (R10-3eL) with its R10-3e sign (sheet 28), button at 3 ft-9 in."
+ },
+ "CAM_P7_Drv_NBint_EB": {
+  "pos": [
+   49.9933,
+   1.0668,
+   3.7094
+  ],
+  "fwd": [
+   0.9911,
+   0.1219,
+   -0.0537
+  ],
+  "up": [
+   -0.1217,
+   0.9925,
+   0.0066
+  ],
+  "type": "PERSP",
+  "lens": 24.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 2000.0,
+  "note": "Driver eye 3.5 ft above pavement, lane 2 of 3 from the left on the EB approach to the NB feeder intersection, 8 ft behind the upstream edge of the proposed stop bar, looking downstream (3.1 deg)."
+ },
+ "CAM_P7_Drv_NBint_NB": {
+  "pos": [
+   72.6186,
+   1.0668,
+   19.7693
+  ],
+  "fwd": [
+   -0.4728,
+   0.1219,
+   -0.8727
+  ],
+  "up": [
+   0.0581,
+   0.9925,
+   0.1072
+  ],
+  "type": "PERSP",
+  "lens": 24.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 2000.0,
+  "note": "Driver eye 3.5 ft above pavement, lane 2 of 3 from the left on the NB approach to the NB feeder intersection, 8 ft behind the upstream edge of the proposed stop bar, looking downstream (118.5 deg)."
+ },
+ "CAM_P7_Drv_NBint_WB": {
+  "pos": [
+   80.1868,
+   1.0668,
+   -10.0462
+  ],
+  "fwd": [
+   -0.9908,
+   0.1219,
+   0.0592
+  ],
+  "up": [
+   0.1217,
+   0.9925,
+   -0.0073
+  ],
+  "type": "PERSP",
+  "lens": 24.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 2000.0,
+  "note": "Driver eye 3.5 ft above pavement, lane 2 of 4 from the left on the WB approach to the NB feeder intersection, 8 ft behind the upstream edge of the proposed stop bar, looking downstream (-176.6 deg)."
+ },
+ "CAM_P7_Drv_SBint_EB": {
+  "pos": [
+   -67.1231,
+   1.0668,
+   10.3754
+  ],
+  "fwd": [
+   0.9911,
+   0.1219,
+   -0.0542
+  ],
+  "up": [
+   -0.1217,
+   0.9925,
+   0.0067
+  ],
+  "type": "PERSP",
+  "lens": 24.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 2000.0,
+  "note": "Driver eye 3.5 ft above pavement, lane 2 of 4 from the left on the EB approach to the SB feeder intersection, 8 ft behind the upstream edge of the proposed stop bar, looking downstream (3.1 deg)."
+ },
+ "CAM_P7_Drv_SBint_SB": {
+  "pos": [
+   -64.8736,
+   1.0668,
+   -18.986
+  ],
+  "fwd": [
+   0.4973,
+   0.1219,
+   0.859
+  ],
+  "up": [
+   -0.0611,
+   0.9925,
+   -0.1055
+  ],
+  "type": "PERSP",
+  "lens": 24.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 2000.0,
+  "note": "Driver eye 3.5 ft above pavement, lane 2 of 3 from the left on the SB approach to the SB feeder intersection, 8 ft behind the upstream edge of the proposed stop bar, looking downstream (-59.9 deg)."
+ },
+ "CAM_P7_Drv_SBint_WB": {
+  "pos": [
+   -38.4993,
+   1.0668,
+   -3.5265
+  ],
+  "fwd": [
+   -0.991,
+   0.1219,
+   0.0545
+  ],
+  "up": [
+   0.1217,
+   0.9925,
+   -0.0067
+  ],
+  "type": "PERSP",
+  "lens": 24.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 2000.0,
+  "note": "Driver eye 3.5 ft above pavement, lane 2 of 3 from the left on the WB approach to the SB feeder intersection, 8 ft behind the upstream edge of the proposed stop bar, looking downstream (-176.8 deg)."
+ },
+ "CAM_P7_Ped_NB_CH": {
+  "pos": [
+   98.9411,
+   1.6764,
+   22.8996
+  ],
+  "fwd": [
+   -0.8764,
+   -0.0349,
+   -0.4802
+  ],
+  "up": [
+   -0.0306,
+   0.9994,
+   -0.0168
+  ],
+  "type": "PERSP",
+  "lens": 24.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 2000.0,
+  "note": "Pedestrian eye 5 ft above the walking surface (E_RD_Sidewalk_assumed, z 0.50 ft), 5 ft behind the first crosswalk bar at the new ramp, facing across: NB right-turn channel, SE island (Type 22 walkway 10-14-15); ped poles (no ped signal; S6 R1-5BL); 28 ft crossing."
+ },
+ "CAM_P7_Ped_NB_E": {
+  "pos": [
+   69.8083,
+   1.6764,
+   -21.1348
+  ],
+  "fwd": [
+   0.3418,
+   -0.0349,
+   0.9391
+  ],
+  "up": [
+   0.0119,
+   0.9994,
+   0.0328
+  ],
+  "type": "PERSP",
+  "lens": 24.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 2000.0,
+  "note": "Pedestrian eye 5 ft above the walking surface (E_ISL_NE_Landscaped, z 0.50 ft), 5 ft behind the first crosswalk bar at the new ramp, facing across: east leg, across Spring Cypress via the east-median cut-through (Type 21, pads 16-18); ped poles R -> Q -> P; 122 ft crossing."
+ },
+ "CAM_P7_Ped_NB_N": {
+  "pos": [
+   47.2684,
+   1.524,
+   -21.272
+  ],
+  "fwd": [
+   0.9911,
+   -0.0349,
+   -0.1287
+  ],
+  "up": [
+   0.0346,
+   0.9994,
+   -0.0045
+  ],
+  "type": "PERSP",
+  "lens": 24.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 2000.0,
+  "note": "Pedestrian eye 5 ft above the walking surface (pavement level (gap beside ramp mesh), z 0.00 ft), 5 ft behind the first crosswalk bar at the new ramp, facing across: north leg, across the NB feeder (approach side north); ped poles T -> S; 63 ft crossing."
+ },
+ "CAM_P7_Ped_NB_S": {
+  "pos": [
+   63.5935,
+   1.524,
+   15.1729
+  ],
+  "fwd": [
+   0.9977,
+   -0.0349,
+   -0.0574
+  ],
+  "up": [
+   0.0348,
+   0.9994,
+   -0.002
+  ],
+  "type": "PERSP",
+  "lens": 24.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 2000.0,
+  "note": "Pedestrian eye 5 ft above the walking surface (E_RD_Pavement, z 0.00 ft), 5 ft behind the first crosswalk bar at the new ramp, facing across: south leg, across the NB feeder; ped poles N -> O; 62 ft crossing."
+ },
+ "CAM_P7_Ped_SB_CH": {
+  "pos": [
+   -88.6297,
+   1.524,
+   -22.1285
+  ],
+  "fwd": [
+   0.888,
+   -0.0349,
+   0.4585
+  ],
+  "up": [
+   0.031,
+   0.9994,
+   0.016
+  ],
+  "type": "PERSP",
+  "lens": 24.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 2000.0,
+  "note": "Pedestrian eye 5 ft above the walking surface (pavement level (gap beside ramp mesh), z 0.00 ft), 5 ft behind the first crosswalk bar at the new ramp, facing across: SB right-turn channel, NW island (Type 22 walkway 1-4-5); ped poles (no ped signal; S6 R1-5BL); 27 ft crossing."
+ },
+ "CAM_P7_Ped_SB_N": {
+  "pos": [
+   -69.7321,
+   1.5362,
+   -13.6185
+  ],
+  "fwd": [
+   0.9978,
+   -0.0349,
+   -0.056
+  ],
+  "up": [
+   0.0348,
+   0.9994,
+   -0.002
+  ],
+  "type": "PERSP",
+  "lens": 24.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 2000.0,
+  "note": "Pedestrian eye 5 ft above the walking surface (P_RAMP_T22_1_4_5, z 0.04 ft), 5 ft behind the first crosswalk bar at the new ramp, facing across: north leg, across the SB feeder (departure); ped poles E -> D; 50 ft crossing."
+ },
+ "CAM_P7_Ped_SB_S": {
+  "pos": [
+   -49.3258,
+   1.524,
+   23.7835
+  ],
+  "fwd": [
+   0.9916,
+   -0.0349,
+   -0.1247
+  ],
+  "up": [
+   0.0346,
+   0.9994,
+   -0.0044
+  ],
+  "type": "PERSP",
+  "lens": 24.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 2000.0,
+  "note": "Pedestrian eye 5 ft above the walking surface (E_RD_Pavement, z 0.00 ft), 5 ft behind the first crosswalk bar at the new ramp, facing across: south leg, across the SB feeder (approach); ped poles I -> J; 62 ft crossing."
+ },
+ "CAM_P7_Ped_SB_W": {
+  "pos": [
+   -71.2714,
+   1.5362,
+   -11.1161
+  ],
+  "fwd": [
+   0.4268,
+   -0.0349,
+   0.9037
+  ],
+  "up": [
+   0.0149,
+   0.9994,
+   0.0316
+  ],
+  "type": "PERSP",
+  "lens": 24.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 2000.0,
+  "note": "Pedestrian eye 5 ft above the walking surface (P_RAMP_T22_1_4_5, z 0.04 ft), 5 ft behind the first crosswalk bar at the new ramp, facing across: west leg, across Spring Cypress via the west-median cut-through (Type 21, pads 6-7); ped poles F -> G -> H; 122 ft crossing."
+ },
+ "CAM_P7_RadarTop": {
+  "pos": [
+   22.86,
+   182.88,
+   6.096
+  ],
+  "fwd": [
+   -0.0,
+   -1.0,
+   0.0
+  ],
+  "up": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "type": "ORTHO",
+  "lens": 50.0,
+  "sensor": 36.0,
+  "ortho": 457.20001220703125,
+  "clip_end": 2000.0,
+  "note": ""
+ },
+ "CAM_Review_Oblique": {
+  "pos": [
+   -100.584,
+   79.248,
+   128.016
+  ],
+  "fwd": [
+   0.567,
+   -0.4336,
+   -0.7004
+  ],
+  "up": [
+   0.2728,
+   0.9011,
+   -0.337
+  ],
+  "type": "PERSP",
+  "lens": 28.0,
+  "sensor": 36.0,
+  "ortho": 6.0,
+  "clip_end": 5000.0,
+  "note": ""
+ },
+ "CAM_Review_Top": {
+  "pos": [
+   10.0,
+   500.0,
+   -0.0
+  ],
+  "fwd": [
+   -0.0,
+   -1.0,
+   0.0
+  ],
+  "up": [
+   0.0,
+   0.0,
+   -1.0
+  ],
+  "type": "ORTHO",
+  "lens": 50.0,
+  "sensor": 36.0,
+  "ortho": 330.0,
+  "clip_end": 2000.0,
+  "note": ""
+ }
+}

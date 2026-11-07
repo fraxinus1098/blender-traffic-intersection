@@ -1,0 +1,64 @@
+# Working notes from the Claude build sessions
+
+This model was built by Claude (Anthropic) driving Blender through the Blender MCP server, with heavy geometry work done in a cloud Python container and files passed back and forth to a Windows PC. These are the working notes Claude kept for itself between chats, kept here as-is because they show how the workflow actually ran (and what broke). Tool names like `device_bash` and `device_commit_files` are Claude-desktop tools, not something you need to reproduce the project.
+
+Paths: in the original sessions the project lived at `C:/Users/<you>/Downloads/SH249_3D/`. In this repo the scripts find the repo root automatically (see `BUILD.md`).
+
+## Working notes for a new chat (read first)
+
+**Tools and workflow that worked:**
+- **Blender:** `mcp__remote-devices__Blender__execute_blender_code`. The code must set `result` to a **dict**, or the call errors. Keep each call small, one element type at a time. Scripts run in Blender with `exec(open(r'<repo>/work/<script>.py').read())`; set any parameters as globals before the exec. When exec-ing with your own globals dict, `import bpy` in the calling code too (and pass `'bpy': bpy` in the dict).
+- **Renders:** `work/p8_render_blender.py` supersedes `p7_render_blender.py` (same globals, plus `VIEW='existing'`). Set `CAMS = [(camera, out_name), ...]`, `VIEW = 'existing' | 'proposed' | 'change' | 'radar'`, `PCT` (resolution %) and optionally `OUT` (folder, default `export/`) as globals, then exec it. `existing` excludes P_Signals, P_Markings, P_Ramps and P_Signs; `proposed` excludes E_Signals and E_Markings; `change` applies the red/green change view and restores it; `radar` is the proposed view with the radar zones made renderable. Excludes, camera, resolution and the change view are restored in a `finally`. Eevee takes about 3 s per 2400 × 1350 frame (the first render after opening the file adds about 15 s of shader compile). Stage the PNG with `device_stage_files` to view it. Put test renders in `work/p8_tests/`, not `export/` (deleting files on the device isn't allowed; `mv` works). Change-view renders get their legend from `python3 work/p7_legend.py <png>` on the device (edits in place; run once per fresh render).
+- **Heavy geometry work happens in the cloud container**, not in Blender:
+  1. Stage the files you need with `device_stage_files`. They land under `/mnt/user-data/uploads/SH249_3D/...`.
+  2. Process them with Python (pdfplumber, numpy, scipy, shapely, mapbox_earcut, cv2, PIL, pyproj, matplotlib, pycollada). `pip install --break-system-packages` works. Node 22 + npm work too (Phase 8 viewer build).
+  3. Write mesh JSON (`{'v': [[x,y,z],...], 'f': [[i,j,k],...], 'uv': [...]}` in Blender metres) to `/mnt/user-data/outputs/`.
+  4. `device_commit_files` it to `<repo>\work\`.
+  5. In Blender, `json.load` that path and `from_pydata`.
+- **`device_bash`** runs on the user's machine (Linux VM with the folder mounted at `$HOME/mnt/SH249_3D`). It has python3 with PIL but no pdfplumber or pyproj, so prefer the container for those. Small scripts can be written straight into `work/` with a heredoc from `device_bash` (no commit step, no stale-copy risk). It can't reach Overpass; the **cloud container can** (Overpass needs a User-Agent and a retry loop when busy; see `work/p6_fetch_osm.sh`).
+- **Committing files to the user's machine (important):** `device_commit_files` **has left the old copy in place after a file is edited and re-committed, even with `force: true`** (4 times in Phase 6; no failures in Phase 8). After every commit, compare **`md5sum`** on the device (via `device_bash`) with the container copy and re-commit until they match. File size alone is not enough. Committed PNG/JPEGs gain a ~5.7 KB C2PA content-credentials block; that's expected and harmless (compare those by size − 5.7 KB or skip).
+- **Integrity check:** `work/p7_snapshot.py` fingerprints every E_/P_/CTX_ object (mesh data, transform, material slots, custom properties, modifiers, visibility, collections), every material and node group. `MODE='compare'` diffs the scene against `work/p7_baseline_v08.json` (expected: only the 5 `MAT_P7_RZ_*` listed as NEW). **Phase 8 added `work/p8_baseline_v09.json`** (fingerprint of v09, 302 objects, 51 materials): to compare against it, exec the script text with `.replace('p7_baseline_v08.json', 'p8_baseline_v09.json')`; v09 and v10_export give **no** differences. Don't overwrite either baseline from a later file.
+- **Headless browser test of the viewer (container):** Playwright + `/usr/bin/google-chrome` with `--use-angle=swiftshader --enable-unsafe-swiftshader` renders WebGL from `file://`. `work/p8_shoot_viewer.py <html> <outdir> '<json list of {name, js:[...]}>'` waits for `window.__viewer.ready`, runs the JS steps and screenshots each; it also lists any non-file network requests (should be none).
+- **Data saved in `work/`** for reuse:
+  - `p3_ext_38_39.json`: classified sheet 38/39 vectors in plan feet.
+  - `p3_rd_masks.npz`, array `final`: class raster at 0.25 ft, X −400…560, Y −240…210, row 0 = Y 210. Classes: 1 pavement, 2 island, 3 roadside, 4 curb band, 5 sidewalk. Use it to check whether a point is on pavement, island or roadside (for example, pole placement). Note: the whole raised area under and around the bridge reads as class 2.
+  - `p3_chains.json`, `p3_closures*.json`.
+  - All `p2_*.py` … `p8_*.py` scripts.
+  - `p4_existing_signals.json`: the Phase 4 mesh + property JSON (41 objects).
+  - `p5_proposed_signals.json`: the Phase 5a mesh + property JSON (64 objects) plus sign-text metadata; `p5_import_blender.py` imports it.
+  - `p5b_proposed_mk_ramps.json`: the Phase 5b mesh + property JSON (18 objects, 12 ramp cutters, S6 text); `p5b_import_blender.py` imports it, then `p5b_cut_blender.py` cuts the curb at the ramps. Intermediate data: `p5b_mk.json` (classified markings, plan feet), `p5b_pads.json` (19 detectable-warning pads).
+  - Phase 6: `p6_osm_raw.json` (Overpass response), `p6_osm_buildings.json` (footprints in plan feet + heights), `p6_context.json` (building meshes + tags), `p6_trees.json` (tree positions, crown radius, height, variant), `tex/p6_*.jpg` (surface textures), `p6_common.py` (scene ↔ UTM ↔ aerial-pixel ↔ mask helpers).
+  - Phase 7: `p7_data.json` (approaches, lanes, eye points, crosswalks, radar-zone polygons in plan ft), `p7_radar_zones.json` (zone meshes), `p7_visibility.json` (head-visibility results), `p7_baseline_v08.json` (integrity fingerprint), `p7_geom_overview.png`.
+  - Phase 8: `p8_cameras.json` (all 27 scene cameras in glTF Y-up metres, for the viewer presets), `p8_baseline_v09.json`, `p8_viewer/` (viewer source), `p8_tests/` (viewer screenshots, KMZ plot check), `docs/` (mirror of the two project docs as of the end of Phase 8).
+- **Plan-overlay check (Phase 4 method, reused in 5a):** render the new objects top-down with an ortho camera (`CAM_P4_PlanCheck`, ortho_scale 180 ft, 1800 × 1400 px = 10 px/ft), with every other collection excluded and `film_transparent` on. In the container, crop the sheet PNG to the same plan-feet window, resize to 10 px/ft and alpha-composite (`work/p5_composite.py` handles the sheet dy offset). Restore collection excludes, camera, resolution and `film_transparent = False` afterwards.
+
+**Frames and units:**
+- Plan feet: X east, Y north, origin at ORIGIN_SC.
+- PDF point → plan feet: `X = (x + dx − 836.9) × 40/72`, `Y = −(y + dy − 305.5) × 40/72`, with (dx, dy) from the sheet offset table below. pdfplumber `pts` are (x, top), y down. PNG pixel (300 dpi) = `((X/K + 836.9 − dx) × 300/72, (−Y/K + 305.5 − dy) × 300/72)`, K = 40/72.
+- Blender metres = feet × 0.3048. Heights: pavement z = 0, curb/island/roadside tops at 0.5 ft. The aerial plane (and everything outside the model extent) is at z = −0.10 m.
+- glTF / three.js (viewer): Y-up, metres; Blender (x, y, z) → glTF (x, z, −y). Scene north = three.js −Z.
+- **Elevations:** pole bases on the 6" curb/roadside level (0.5 ft). Mast-arm heads go 17'-6" above the **pavement** (z = 0).
+- **rastUVmap** (aerial UVs) is an affine map of world XY in metres: u = 0.00080944·x + 0.00004195·y + 0.49524, v = −0.00006261·x + 0.00120811·y + 0.49744 (fitted on E_RD_Pavement, error 4e-8). The aerial spans 1233.77 × 826.63 m.
+
+**PDF page index** (`plans/SH249_Select_Sheets.pdf`, 22 pages), confirmed by the title-block sheet number: 23→0, 24→1, 25→2, **26→3, 27→4, 28→5**, 30→6, 31→7, 32→8, 33→9, 34→10, 35→11, 38→12, 39→13, 40→14, 41→15, 42→16, 43→17, 44→18, 45→19, 67→20 (LMA(5) parts list), 68→21. Pages 3–5 are "Sheet 1–3 of 4" of the proposed-signal set; sheet 29 (4 of 4) is not in the extract.
+
+**Making later changes (after Phase 8):**
+- **Model changes** (geometry, tags, materials) go into the clean model: open v09, make the change, check with `p7_snapshot.py`, save as **v11** (don't edit v09 in place). Then make a new export copy (`sh249_sc_v12_export.blend` or similar) and rerun the Phase 8 pipeline below. Never do export prep in the clean model.
+- **Phase 8 pipeline (rebuild order):**
+  1. Blender, in the export copy only: `p8_export_glb.py` (globals `OUT`, `DRACO` default False, `GPU_INST` default True, `JPEG_Q` default 85). It asserts the file name ends in `v10_export.blend`; change that assert for a new copy. Writes `export/sh249_springcypress.glb` and `work/p8_cameras.json`.
+  2. Container: stage the GLB and `p8_cameras.json`; `python3 p8_glb_post.py in.glb out.glb` (drops the empty Reference nodes, tags the instanced trees); `python3 p8_glbinfo.py out.glb` (node tree, size breakdown, extras check). Commit the result back over `export/sh249_springcypress.glb`.
+  3. Container viewer build: copy `work/p8_viewer/` into a folder, rename `p8_viewer_main.js` → `src/main.js`, `p8_viewer_template.html` → `src/template.html`, `p8_viewer_package.json` → `package.json`; `npm i three esbuild` (built with three r187, esbuild 0.28); `node p8_build_viewer.mjs <glb> <p8_cameras.json> <out.html>`. Test with `p8_shoot_viewer.py`. Commit to `export/sh249_springcypress_viewer.html`.
+  4. Container KMZ: `python3 p8_build_kmz.py <glb> <out.kmz>` (needs `pip install pycollada`). Commit to `export/`.
+  5. Blender: `p8_render_blender.py` for the finals (list in the Phase 8 section); `p7_legend.py` on the change render.
+- **Viewer-only edits** (no model change): edit `p8_viewer_main.js` / `p8_viewer_template.html` and redo step 3 with the existing GLB. Where things live in `main.js`: `TINT` / `TINT_MIX` (change colours), `PRESETS` (camera list and labels; names must exist in `p8_cameras.json`), `hemi` / `sun` (lighting), `layerOf()` (which collection goes to which layer toggle), `prepare()` (material fixes: aerial unlit, radar zones no depth write, markings polygon offset). Title, legend, disclaimer and the layer checkboxes are in the template. `window.__viewer` (setMode, setLayer, goto, look, pickAt, selectByName, stats) is the test hook.
+- **Exporter gotchas found in Phase 8:**
+  - `AERIAL_NAIP2022_60cm` is unselectable (`hide_select`), so `select_set` silently fails and a `use_selection` export drops it. `p8_export_glb.py` clears `hide_select` for the export and restores it.
+  - `export_hierarchy_full_collections` writes nodes for every collection, including the hidden/empty Reference children, even with the Reference layer collection excluded. `p8_glb_post.py` removes them.
+  - The "Mesh … is not valid" warning comes from the exporter itself: `blender/exp/nodes.py` calls `mesh.validate()` (custom-data cleaning on) on every exported mesh and warns if it returns True. Note that this **modifies the mesh in the open file**, which is another reason to export only from a copy. In v09 no mesh changes (all 301 checked), and the Phase 8 export logged no warnings; the earlier warnings came from an older state of those meshes.
+  - Hidden objects ARE exported when selected; the radar zones need `use_renderable = False` (default).
+- **KMZ:** see the Phase 8 section. Google Earth can't be opened from here; the user checks alignment.
+- **Lighting:** if anything resets the world or sun, rerun `p6_light_blender.py` (defaults = the v08 values). Don't switch the view transform from Standard; the sun/sky strengths are tuned for it.
+- Any later BlenderGIS import must be rotated +2.9668° about the scene origin (Phase 2). `work/p6_common.py` has `utm_to_scene_ft` / `scene_ft_to_utm` for container-side conversions.
+- The signal-derived intersection centres are about SB (−160, −15) ft and NB (205, 10) ft. The Phase 3 note "SB center ≈ (−235, 5)" looks off; use these.
+- Open question for the user: the aerial suggests the frontage roads are concrete, not asphalt. The pavement is still textured as weathered asphalt.
+- The APS push-button sign (R10-3e) is a blank white plate (Phase 5); visible in `export/phase7_aps_d.png`. A legend decal would be a new object if wanted.
