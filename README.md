@@ -43,7 +43,7 @@ This was a fun side project to see how far you can get from plan sheets to a 3D 
 | `blend/sh249_sc_v09.blend` | The clean Blender model. | Blender 5.2 or newer. Open it from inside the cloned repo so the textures and aerial load. |
 | `export/final_*.png` | Six 2400 × 1350 renders. | |
 
-Direct downloads: [viewer HTML](https://github.com/fraxinus1098/blender-traffic-intersection/raw/main/export/sh249_springcypress_viewer.html) · [KMZ](https://github.com/fraxinus1098/blender-traffic-intersection/raw/main/export/sh249_springcypress.kmz) · [GLB](https://github.com/fraxinus1098/blender-traffic-intersection/raw/main/export/sh249_springcypress.glb)
+To keep a copy: open [the viewer HTML](export/sh249_springcypress_viewer.html), [the KMZ](export/sh249_springcypress.kmz) or [the GLB](export/sh249_springcypress.glb) on GitHub and click the **Download raw file** button (↓) at the top right of the file. Then double-click the downloaded HTML to open the viewer offline.
 
 ## How it was built
 
