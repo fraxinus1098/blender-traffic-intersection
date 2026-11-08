@@ -12,3 +12,8 @@ work/p*_tests/
 *.tmp
 .DS_Store
 Thumbs.db
+# Phase 9: lidar tiles and caches, Python venv, raw Mapillary downloads
+lidar/
+.venv/
+work/p9_photos/raw/
+work/p9_photos/render/

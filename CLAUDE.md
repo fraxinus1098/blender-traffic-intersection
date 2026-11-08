@@ -2,6 +2,8 @@
 
 3D visualization of the TxDOT signal upgrade at SH 249 at Spring Cypress Rd (CSJ 0720-03-153), built in Blender 5.2 over the Blender MCP. The project is finished (Phases 0–8). The Louetta Rd interchange in the same plan PDF was never built and isn't planned.
 
+**Phase 9 (v11 improvements) is in progress on branch `v11-improvements`: read the "Status and handoff" section at the end of `docs/PLAN_v11.md` first.** The clean model for Phase 9 is `blend/sh249_sc_v11.blend`.
+
 Read first:
 - `docs/BUILD_LOG.md`: what was built and how, phase by phase, plus coordinate frames and sheet offsets
 - `docs/ASSUMPTIONS.md`: the 73 assumptions

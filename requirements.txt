@@ -11,3 +11,5 @@ pyproj
 matplotlib
 pycollada        # KMZ build (p8_build_kmz.py)
 playwright       # optional: headless viewer screenshots (p8_shoot_viewer.py)
+laspy[lazrs]     # lidar (p9_lidar.py)
+scikit-image     # lidar tree crowns (p9_lidar.py)

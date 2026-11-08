@@ -146,3 +146,33 @@ Update `work/p8_build_kmz.py` → `work/p9_build_kmz.py`:
 ## Order and checkpoints
 
 9A.1 → 9A.2 → 9A.3 → 9A.4 → 9B → 9C → 9D → 9E. Stop and show the user screenshots at the end of each sub-phase before moving on. Commit on the branch after each accepted sub-phase (only when the user says so).
+
+## Status and handoff (updated 2026-11-07, end of session 1)
+
+**Done: 9A (all of 9A.1–9A.4).** Clean model `blend/sh249_sc_v11.blend` (saved, not dirty). Full record in `docs/BUILD_LOG.md` → "Phase 9" (scripts, run order, findings, checks). Assumptions 12, 18, 47, 48, 50–53 rewritten; 74–77 added. README known-limits line on concrete updated. Nothing in `export/` has been rebuilt yet (GLB, viewer, KMZ, finals are still the v10 ones).
+
+**Decisions made with the user (don't re-litigate):**
+- 9B: **accept a pole-and-curb-anchored camera solve** (2–7 ft agreement, not "a few pixels") and report the residuals as findings: the plan's existing heads/markings differ from the 2026 street (e.g. K-arm heads hang ~3 ft higher than the 17.5-ft rule; heads 4–15 ft from plan positions; ~30 % of existing markings match the photo paint). Two dashcam frames only; StreetSide 360° panos are optional, later, only if time allows. Don't spend more effort chasing pixel accuracy.
+- Bridge: square columns (as photographed, not round) and two extra bents at the header-bank toes are fine. Cars appear in every view (context). 80 lidar trees replace the 131 NAIP ones.
+- Commit after each accepted sub-phase only when the user asks.
+
+**Environment notes (also in BUILD_LOG 9 intro and Claude's memory):**
+- Pass `SH249_ROOT = '\\\\wsl.localhost\\Ubuntu\\home\\shortie1\\Projects\\blender-traffic-intersection\\'` (backslashes) to every Blender exec; the scripts' own detection yields `//wsl.localhost/...`, which Blender treats as blend-relative for output paths.
+- Venv: `.venv/bin/python` (requirements.txt incl. laspy, scikit-image). Mapillary token: `export MAPILLARY_TOKEN=$(cat ~/.config/sh249/mapillary_token)` (never in the repo).
+- Integrity: compare against `work/p9_baseline_v09.json` (exec `p7_snapshot.py` text with `.replace('p7_baseline_v08.json','p9_baseline_v09.json')`). Expected diffs today: E_RD_Pavement, E_MA_C/E/H/K (sign text only), MAT_Aerial_NAIP, CTX_* bridge/buildings/trees/vehicles, new MAT_P9_*/MAT_CTX_Car_*/MAT_CTX_TreeCanopy_Pine. No P_ object changed.
+- Test renders: `p8_render_blender.py` with `OUT = SH249_ROOT + 'work\\p9_tests\\'` (gitignored).
+
+**Next: finish 9B.**
+1. Poses (in `work/p9_photos/p9_cams.json`, key `pose_solved`; picks in `p9_picks.json`, 3D lines in `p9_lines3d.json`):
+   - NB `28581715364843976`: current `pose_solved` is the accepted one: `.venv/bin/python work/p9_photo_solve.py solve 28581715364843976 K_base,K_top,H_base,H_top` (lines bridge_top_E + curb_NEisland_S are used automatically). Pole H 0.4–0.6 ft, pole K 3.5–5 ft.
+   - SB `1503912631573961`: the stored `pose_solved` is from a test run (fixed rotation, markings only); **re-solve**. Pole C alone + the north curb rotates the ground plane (roll/heading trade-off), so first pick the left (centre-median) curb in the photo (`line:curb_WB_SBint_S`, 3D line already in `p9_lines3d.json`; it is partly hidden by the SUV on the left), then `solve 1503912631573961 C_top,C_arm_root`. Check with `project` and an overlay render; markings should run toward the photo's vanishing point. Optional refinement flags: `P9_START=solved P9_MARK=1 P9_MARK_CAP=30 P9_MARK_R=140 P9_MARK_V0=1300 P9_MARK_V1=1900 P9_MARK_W=0.3`.
+2. Render overlays in Blender: `IDS=[...]; LAYER='existing'|'proposed'|'removed'; POSE='solved'; PCT=50; OUT=SH249_ROOT+'work\\p9_photos\\render\\'` then exec `work/p9_photo_render_blender.py` (restores everything).
+3. Write `work/p9_photo_composite.py`: photo (undistorted, `work/p9_photos/raw/<id>_undist.jpg`) cropped above the hood/overlay text (roughly y < 1900 of 2160 for this camera; check), existing overlay, proposed overlay + red outline from the `removed` mask (dilate − mask). Output `work/p9_photos/<id>_{photo,existing,proposed}.jpg|png` (commit these, with license info: CC BY-SA 4.0, photographer `graharg`, via Mapillary).
+4. Write the residuals into BUILD_LOG 9B (replace the "in progress" section) and add new assumptions (78+): camera model/solve method, overlay rules.
+
+**Then 9C (viewer), 9D (KMZ), 9E (exports + docs)** as specified above. Notes:
+- Check Node and Playwright in WSL first (`node -v`; `.venv/bin/pip install playwright && .venv/bin/python -m playwright install chromium`); the Phase 8 viewer build used three r187 + esbuild 0.28.
+- New tree meshes and cars are instanced (linked meshes); check `p8_glb_post.py` still tags the instanced tree nodes, and add the cars (CTX_Vehicles) to the viewer's context layer (it maps by collection ancestry, so this should already work).
+- `MAT_P9_ConcretePave` / `MAT_P9_Mainlane` use UV map `paveUV` (second UV set on E_RD_Pavement): check the GLB exporter writes TEXCOORD_1 and three.js uses it.
+- KMZ markings: drape as clamped polygons (9D.1); the bridge/embankment are context and not in the KMZ (as before).
+- 9E docs to update at the end: BUILD_LOG (9B final, 9C, 9D, 9E), ASSUMPTIONS (78+), BUILD.md (venv, lidar download incl. the rockyweb one-connection/429 note, p9 scripts and run order, v11/v12), README (features, screenshots, known limits, credits), ATTRIBUTION.md (USGS 3DEP lidar public domain; Mapillary CC BY-SA 4.0 with photographer credit), CLAUDE.md (v11 clean, v12 export copy, Phase 9 done), save `work/p9_baseline_v11.json`.

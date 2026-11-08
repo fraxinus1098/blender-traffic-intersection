@@ -88,7 +88,7 @@ The `.blend` files look for `work/tex/`, `imagery/` and `plans/masked/` relative
 - The site is modeled flat: the plans give no profiles.
 - Sign faces without a legend in the plans (R10-3e, R3-8, existing street-name signs) are blank.
 - Building heights are guessed by building type; trees are approximate.
-- The frontage roads may actually be concrete, not asphalt.
+- Pavement is jointed concrete everywhere (frontage roads, Spring Cypress, mainlanes), as the 2026 street-level photos show; the joint pattern is a generic 15 × 12 ft grid, not the actual joint layout.
 - Underground items (conduit, bores, ground boxes) are not modeled.
 
 ## Credits and sources
