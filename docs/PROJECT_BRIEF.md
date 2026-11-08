@@ -11,7 +11,7 @@ Build a 3D model of the TxDOT traffic signal upgrade at **SH 249 at Spring Cypre
 
 The audience is a TxDOT project manager. This is an exploratory test, so a convincing, roughly-to-scale result matters more than survey precision.
 
-**Status (2026-11-06): Spring Cypress is complete (Phases 0–8).** Deliverables are in `export/`: `sh249_springcypress.glb`, `sh249_springcypress_viewer.html`, `sh249_springcypress.kmz` and `final_*.png`. The clean model is `blend/sh249_sc_v09.blend`; the export copy is `blend/sh249_sc_v10_export.blend`.
+**Status (2026-11-07): Spring Cypress is complete (Phases 0–9).** Deliverables are in `export/`: `sh249_springcypress.glb`, `sh249_springcypress_viewer.html`, `sh249_springcypress.kmz` and `final_*.png`. The clean model is `blend/sh249_sc_v11.blend`; the export copy is `blend/sh249_sc_v12_export.blend`. Phase 9 (lidar heights, photo overlays, viewer tools) is in `PLAN_v11.md` and `BUILD_LOG.md`.
 
 
 ## Source sheets (`plans/SH249_Select_Sheets.pdf`)
@@ -94,9 +94,9 @@ The plans contain no phasing sheet. TxDOT signal maintenance provides the timing
 blender-traffic-intersection/
   plans/     extracted PDF + one PNG (300 dpi) per Spring Cypress sheet, masked/ overlays
   imagery/   aerial GeoTIFF (NAIP 2022, 0.6 m, from TxGIO)
-  blend/     v09 = clean model, v10_export = export copy (earlier saves not kept)
-  work/      build scripts (p2_*.py … p8_*.py), intermediate data, textures,
-             p8_viewer/ (viewer source)
+  blend/     v11 = clean model, v12_export = export copy, v09 = Phase 7 model (earlier saves not kept)
+  work/      build scripts (p2_*.py … p9_*.py), intermediate data, textures,
+             p9_viewer/ (viewer source), p9_photos/ (photo overlays)
   export/    GLB, viewer HTML, KMZ, final renders
 ```
 

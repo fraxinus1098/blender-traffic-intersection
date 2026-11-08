@@ -1,7 +1,7 @@
 """Phase 9A.4 (Blender, clean model v11): legends on the six existing street-name signs (inside the E_MA_* meshes).
 Run inside Blender:  exec(open(r'<repo>/work/p9_signs_blender.py').read())
 Each sign panel (a MAT_Sign_Green island in the arm mesh) faces the same way as its arm's heads (Phase 4). Panels
-facing Spring Cypress traffic (EB/WB) read the cross street "SH 249" (the Oct 2026 photo shows "SH 249" on the K arm
+facing Spring Cypress traffic (EB/WB) read the cross street "SH 249" (the Nov 2026 photo shows "SH 249" on the K arm
 seen from WB); panels facing frontage-road traffic (NB/SB) read "Spring Cypress Rd". White text, Blender's default
 font, same method as p5_import_blender.py. Skips arms that already have legends (sh249_sign_legends)."""
 import bpy, bmesh, math

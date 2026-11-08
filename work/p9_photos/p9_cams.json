@@ -282,61 +282,71 @@
   },
   "pose_solved": {
    "loc_ft": [
-    -102.898,
-    28.315,
-    3.749
+    -104.416,
+    30.851,
+    3.362
    ],
    "R_world_from_cv": [
     [
-     0.071197,
-     -0.119009,
-     -0.990337
+     -0.008823,
+     -0.119851,
+     -0.992753
     ],
     [
-     0.997136,
-     -0.016907,
-     0.073718
+     0.993386,
+     -0.114713,
+     0.00502
     ],
     [
-     -0.025517,
-     -0.992749,
-     0.117465
+     -0.114483,
+     -0.986142,
+     0.120071
     ]
    ],
-   "heading_scene_deg": 175.74,
-   "pitch_deg": 6.75,
-   "roll_deg": 1.47,
-   "points": [],
+   "heading_scene_deg": 179.71,
+   "pitch_deg": 6.9,
+   "roll_deg": 6.62,
+   "points": [
+    "C_top",
+    "C_arm_root"
+   ],
    "lines": {
-    "curb_WB_SBint_N": 5
+    "curb_WB_SBint_N": 5,
+    "curb_WB_SBint_S": 11
    },
-   "residual_px": {},
-   "residual_ft": {},
+   "residual_px": {
+    "C_top": 5.5,
+    "C_arm_root": 13.3
+   },
+   "residual_ft": {
+    "C_top": 0.38,
+    "C_arm_root": 0.92
+   },
    "check_px_ft": {
     "C_top": [
-     80.7,
-     5.55
+     5.5,
+     0.38
     ],
     "C_arm_root": [
-     100.4,
-     6.83
+     13.3,
+     0.92
     ],
     "sign_C_N": [
-     62.7,
-     4.36
+     107.8,
+     7.56
     ],
     "head_N": [
-     20.5,
-     1.45
+     88.7,
+     6.28
     ],
     "head_P": [
-     36.8,
-     2.66
+     107.7,
+     7.75
     ]
    },
-   "line_median_px": 86.4,
-   "rms_px": null,
-   "median_ft": null
+   "line_median_px": 6.2,
+   "rms_px": 10.19,
+   "median_ft": 0.65
   }
  }
 }

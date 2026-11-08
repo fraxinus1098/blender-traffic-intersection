@@ -1,0 +1,8322 @@
+{
+"objects": {
+"CTX_BLDG_11022_Spring_Cypress_Road": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_CTX_Bldg_Wall",
+"MAT_CTX_Bldg_Roof"
+],
+"props": "105fdc956948dc68deb76a0a2e71e34c",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Buildings"
+],
+"data": "CTX_BLDG_11022_Spring_Cypress_Road",
+"geo": [
+10,
+8,
+"d2631966240917d308b65009c05b044c",
+"69a4c6766680e9c1e5195e5c888ca0fe",
+[]
+]
+},
+"CTX_BLDG_22539_Tomball_Parkway": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_CTX_Bldg_Wall",
+"MAT_CTX_Bldg_Roof"
+],
+"props": "02d23297b85b6f22e197ab0b30858062",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Buildings"
+],
+"data": "CTX_BLDG_22539_Tomball_Parkway",
+"geo": [
+8,
+6,
+"81037910e7c8176cd354e6d86023d7ff",
+"06a6d0e5dcda5ff6eb5109c43f61d18d",
+[]
+]
+},
+"CTX_BLDG_7-Eleven": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_CTX_Bldg_Wall",
+"MAT_CTX_Bldg_Roof"
+],
+"props": "f9fa7b6db20d010e92cc5975b64c30cc",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Buildings"
+],
+"data": "CTX_BLDG_7-Eleven",
+"geo": [
+8,
+6,
+"f661f847462aa63dab58d287bad728cf",
+"06a6d0e5dcda5ff6eb5109c43f61d18d",
+[]
+]
+},
+"CTX_BLDG_big_box_254607808": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_CTX_Bldg_Wall",
+"MAT_CTX_Bldg_Roof"
+],
+"props": "76c50a6ee3c92b5eec6b0ac9aa3036cc",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Buildings"
+],
+"data": "CTX_BLDG_big_box_254607808",
+"geo": [
+20,
+18,
+"1ee372b77766678e17753cafd541ffe2",
+"b1e3ec81236685ee6976ab7b32b6f76b",
+[]
+]
+},
+"CTX_BLDG_Canopy_Mobil": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_CTX_Canopy",
+"MAT_CTX_Canopy"
+],
+"props": "b1d20101bb744208636a15fab85a36c1",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Buildings"
+],
+"data": "CTX_BLDG_Canopy_Mobil",
+"geo": [
+32,
+26,
+"9fdc1adc732af631d423317051aa4a50",
+"bba3d94ef2a302d3ebbe145696ec2ee5",
+[]
+]
+},
+"CTX_BLDG_commercial_254607799": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_CTX_Bldg_Wall",
+"MAT_CTX_Bldg_Roof"
+],
+"props": "15105e7d8d643b62eb96ceda1f6eb71e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Buildings"
+],
+"data": "CTX_BLDG_commercial_254607799",
+"geo": [
+12,
+10,
+"79f94096a23ff9b666dbf3bd2211453b",
+"b73eb225f205ea98a5547b978c78d372",
+[]
+]
+},
+"CTX_BLDG_commercial_254607809": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_CTX_Bldg_Wall",
+"MAT_CTX_Bldg_Roof"
+],
+"props": "46f043e0d97840ef04ec3dcd350cf3d3",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Buildings"
+],
+"data": "CTX_BLDG_commercial_254607809",
+"geo": [
+8,
+6,
+"15fe53e688e49228f099a8184944cc68",
+"06a6d0e5dcda5ff6eb5109c43f61d18d",
+[]
+]
+},
+"CTX_BLDG_commercial_254607814": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_CTX_Bldg_Wall",
+"MAT_CTX_Bldg_Roof"
+],
+"props": "2df4eaa4b85cce1f4cfd630f4ec09d75",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Buildings"
+],
+"data": "CTX_BLDG_commercial_254607814",
+"geo": [
+8,
+6,
+"016dac430a5cd03d9f00be4a34b0cd51",
+"06a6d0e5dcda5ff6eb5109c43f61d18d",
+[]
+]
+},
+"CTX_BLDG_commercial_254607816": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_CTX_Bldg_Wall",
+"MAT_CTX_Bldg_Roof"
+],
+"props": "279c2748d1745807bf2c32daf7bbd972",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Buildings"
+],
+"data": "CTX_BLDG_commercial_254607816",
+"geo": [
+8,
+6,
+"bea793669b589c8d36d4d2fe4cf732e4",
+"06a6d0e5dcda5ff6eb5109c43f61d18d",
+[]
+]
+},
+"CTX_BLDG_commercial_678202815": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_CTX_Bldg_Wall",
+"MAT_CTX_Bldg_Roof"
+],
+"props": "6293a41000b7e2416bfb091f5404a148",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Buildings"
+],
+"data": "CTX_BLDG_commercial_678202815",
+"geo": [
+8,
+6,
+"c0a1727b3b0074bb72264bc80d71e22c",
+"06a6d0e5dcda5ff6eb5109c43f61d18d",
+[]
+]
+},
+"CTX_BLDG_commercial_914467657": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_CTX_Bldg_Wall",
+"MAT_CTX_Bldg_Roof"
+],
+"props": "71287b633b2b6afd40cb6b6278e522bb",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Buildings"
+],
+"data": "CTX_BLDG_commercial_914467657",
+"geo": [
+32,
+30,
+"0b8ba4d60e75d36ea57fd426a7677925",
+"dabe38dacc0780e0ad0c698666ee9068",
+[]
+]
+},
+"CTX_BLDG_Firehouse_Subs": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_CTX_Bldg_Wall",
+"MAT_CTX_Bldg_Roof"
+],
+"props": "cdc46dec9b2787baf9488c6c156b5bbf",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Buildings"
+],
+"data": "CTX_BLDG_Firehouse_Subs",
+"geo": [
+8,
+6,
+"dab7318a37d996ac9f729a3dacaa4a94",
+"06a6d0e5dcda5ff6eb5109c43f61d18d",
+[]
+]
+},
+"CTX_BLDG_IHOP": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_CTX_Bldg_Wall",
+"MAT_CTX_Bldg_Roof"
+],
+"props": "7c2a9dd86cefc618b5e379814e0343ef",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Buildings"
+],
+"data": "CTX_BLDG_IHOP",
+"geo": [
+24,
+22,
+"f422d261643ea696c89a44654a3a5194",
+"d218c8021314ff9a5b8a4641905d6010",
+[]
+]
+},
+"CTX_BLDG_Kohls": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_CTX_Bldg_Wall",
+"MAT_CTX_Bldg_Roof"
+],
+"props": "3f700ab6345340942190308c33d5fe83",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Buildings"
+],
+"data": "CTX_BLDG_Kohls",
+"geo": [
+16,
+14,
+"b8b42a2f194e4ab196f85fbe42e7c030",
+"c8e190a8b6ff2e368f5910ebab69cfc4",
+[]
+]
+},
+"CTX_BLDG_Sonic": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_CTX_Bldg_Wall",
+"MAT_CTX_Bldg_Roof"
+],
+"props": "a989622fdcdee1924784455d3ca94150",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Buildings"
+],
+"data": "CTX_BLDG_Sonic",
+"geo": [
+12,
+10,
+"6d567313fed950e74aa3a711878387f4",
+"8946fbc899186a555b80b139f8c590b4",
+[]
+]
+},
+"CTX_BLDG_Valley_Ranch_Grill_and_BBQ": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_CTX_Bldg_Wall",
+"MAT_CTX_Bldg_Roof"
+],
+"props": "1ca415d3521d22bab3823f6d45c84e48",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Buildings"
+],
+"data": "CTX_BLDG_Valley_Ranch_Grill_and_BBQ",
+"geo": [
+24,
+22,
+"325f802ffa697d18042f1681ea3d05e1",
+"c3f961d56467db952630e349a5966abd",
+[]
+]
+},
+"CTX_BLDG_Wells_Fargo": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_CTX_Bldg_Wall",
+"MAT_CTX_Bldg_Roof"
+],
+"props": "39f7236287904e54f1974eeb29104a78",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Buildings"
+],
+"data": "CTX_BLDG_Wells_Fargo",
+"geo": [
+30,
+28,
+"03a6b66dff713f7e0a3ce1a484f82123",
+"76e2693deda5d2279b390ee7e41adf50",
+[]
+]
+},
+"CTX_BLDG_Whataburger": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_CTX_Bldg_Wall",
+"MAT_CTX_Bldg_Roof"
+],
+"props": "c115dfec26fdc304075b799fc3111e7c",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Buildings"
+],
+"data": "CTX_BLDG_Whataburger",
+"geo": [
+16,
+14,
+"8c8599b114c077f45dec99ab4aeb3106",
+"b57b684f2f5e6514420297c047fecfc6",
+[]
+]
+},
+"CTX_SH249_Bents": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_Bridge_Concrete"
+],
+"props": "bf9813dc9faa2518312a426305201ccd",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"Context"
+],
+"data": "CTX_SH249_Bents",
+"geo": [
+1796,
+1704,
+"2d2a37bfa1cee8234e337c8c25056871",
+"62ea4e55053f00602af0027cc140673e",
+[]
+]
+},
+"CTX_SH249_Deck": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_P9_Mainlane",
+"MAT_Bridge_Concrete"
+],
+"props": "63639517081ff1561272108dd655a9ec",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"Context"
+],
+"data": "CTX_SH249_Deck",
+"geo": [
+3394,
+3048,
+"bdfcb2cc0099a0eb9c3f0e0cd3f4e708",
+"6f9d18acbb7bdd245d8ff706700ebdca",
+[
+"paveUV"
+]
+]
+},
+"CTX_SH249_Embankment": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_P9_Mainlane",
+"MAT_P9_SlopePaving",
+"MAT_Embankment"
+],
+"props": "51480f62ba1478582a21d7cbceeece69",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"Context"
+],
+"data": "CTX_SH249_Embankment",
+"geo": [
+11573,
+10793,
+"e12c43cac790986acf1243356a40e0a5",
+"726f8090632fa267ea65bd472e68d7cc",
+[
+"paveUV"
+]
+]
+},
+"CTX_SH249_Girders": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_Bridge_Concrete"
+],
+"props": "621eab46b56818bfa86356c1a1a81822",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"Context"
+],
+"data": "CTX_SH249_Girders",
+"geo": [
+8944,
+8020,
+"6e543b6dcdd0482e6d49e4f24c993900",
+"06f5008027e7004d39ecfb88ab704c10",
+[]
+]
+},
+"CTX_SH249_Markings": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_Paint_White",
+"MAT_Paint_Yellow"
+],
+"props": "12512ef9ef07f9b2fdae004f8d5eeed9",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"Context"
+],
+"data": "CTX_SH249_Markings",
+"geo": [
+1096,
+452,
+"746e4d0cdd881185053dc9608cd816f9",
+"a5e8e95a4b7e65f777e1892e081743d5",
+[
+"rastUVmap"
+]
+]
+},
+"CTX_SH249_Rails": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_Bridge_Concrete",
+"MAT_P9_Bridge_RedStripe"
+],
+"props": "5c32fcc1dadcabc8b54336c10f621639",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"Context"
+],
+"data": "CTX_SH249_Rails",
+"geo": [
+1982,
+1885,
+"3f8a1dc28a8f06ffd5f406040f7e7308",
+"e04882c424fa05c86077a91b866bb30d",
+[]
+]
+},
+"CTX_TREE_000_Pine": {
+"type": "MESH",
+"mw": "4e55ee5363580d2afd37f50de04538f6",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_Pine"
+],
+"props": "e7c8204ccbf65f069e0697b3fdb248f6",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Pine",
+"geo": [
+138,
+248,
+"3d1715b6db19b932443afe76f84a9520",
+"10d2ff5820cd7774f9d3f961057f4fa8",
+[]
+]
+},
+"CTX_TREE_001_Pine": {
+"type": "MESH",
+"mw": "12277c7c709987fa66c98c7ba19bc119",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_Pine"
+],
+"props": "fe6ecab1f47769f5410daf229382a286",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Pine",
+"geo": [
+138,
+248,
+"3d1715b6db19b932443afe76f84a9520",
+"10d2ff5820cd7774f9d3f961057f4fa8",
+[]
+]
+},
+"CTX_TREE_002_Oval": {
+"type": "MESH",
+"mw": "9188c3ba35ecee89dc2860f4990fa30b",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "99663932d3b29432fca1c04431ecee17",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Oval_A",
+"geo": [
+54,
+88,
+"ca2c2e29ca7459c54e12d4ca24573b8e",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_003_Round": {
+"type": "MESH",
+"mw": "f40fd6148f3337045e264f067a6d797c",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "011c9bfcb388417c50043d45de63299f",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_B",
+"geo": [
+54,
+88,
+"16ef84591cc4973098a3150d349a85fa",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_004_Round": {
+"type": "MESH",
+"mw": "c64f86c450b501f022403a56b32ae280",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "ef354c1244f68431af90e242cfea334b",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_A",
+"geo": [
+54,
+88,
+"a9879a3c72b43f67f9509db356dc76d2",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_005_Round": {
+"type": "MESH",
+"mw": "9cbdcf5e2e79067e6a4980ce21e52836",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "38ed2ce071a6c399af4729818512ecbc",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_B",
+"geo": [
+54,
+88,
+"16ef84591cc4973098a3150d349a85fa",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_006_Round": {
+"type": "MESH",
+"mw": "f0193375f4e2efb2a4f731d3b3a4fd23",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "473781ac1ae887b3bdbc4692f46b3eb3",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_A",
+"geo": [
+54,
+88,
+"a9879a3c72b43f67f9509db356dc76d2",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_007_Oval": {
+"type": "MESH",
+"mw": "36bb2e4a5040b909dc895d987a91e67b",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "828c1b633f5053c8d3675cd4727da286",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Oval_B",
+"geo": [
+54,
+88,
+"1b4f0db7e0288aa6a93f076caaf6024d",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_008_Spread": {
+"type": "MESH",
+"mw": "464f47f85cf2f63398ca201c62a5df44",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "0bf32e013449c911f15f5189ddf4179c",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_A",
+"geo": [
+54,
+88,
+"c81b12614fa7aae2a86c22ed1c307447",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_009_Round": {
+"type": "MESH",
+"mw": "c481dabfc761c3cacc4e6e984161866e",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "0e5157a4f2c85789b7c11471af457f4e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_B",
+"geo": [
+54,
+88,
+"16ef84591cc4973098a3150d349a85fa",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_010_Oval": {
+"type": "MESH",
+"mw": "1530f3f097b670bc2a1d23a8e02d2af4",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "14c55c02af27e01146c64ec1e1d03fbf",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Oval_A",
+"geo": [
+54,
+88,
+"ca2c2e29ca7459c54e12d4ca24573b8e",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_011_Oval": {
+"type": "MESH",
+"mw": "feafb95acd3544b69a3573b5e9ea984c",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "f011a27f5b6477d17ef9035baf4e63e4",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Oval_B",
+"geo": [
+54,
+88,
+"1b4f0db7e0288aa6a93f076caaf6024d",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_012_Oval": {
+"type": "MESH",
+"mw": "786f5e16c8f2342ad771ea87ccc6914d",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "c961e4aac0f1b53e51654283d4ee57c5",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Oval_A",
+"geo": [
+54,
+88,
+"ca2c2e29ca7459c54e12d4ca24573b8e",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_013_Oval": {
+"type": "MESH",
+"mw": "f2a176456da38a34c1b01c8cb526dc1e",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "455374c38470e447d5080d7a24b5c5dc",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Oval_B",
+"geo": [
+54,
+88,
+"1b4f0db7e0288aa6a93f076caaf6024d",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_014_Round": {
+"type": "MESH",
+"mw": "04ce42e7ac8eac38b0d6968546472a19",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "5370ca32b4203238070f9feb71528ec6",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_A",
+"geo": [
+54,
+88,
+"a9879a3c72b43f67f9509db356dc76d2",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_015_Oval": {
+"type": "MESH",
+"mw": "d16afe6bd4885cb23a06d4d90f498abf",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "cfe64b28c940d849b0a1d83a7e98fb4e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Oval_B",
+"geo": [
+54,
+88,
+"1b4f0db7e0288aa6a93f076caaf6024d",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_016_Spread": {
+"type": "MESH",
+"mw": "a368e5ab573ac674eff4da47eda8d66b",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "e91dfbc5d5e475ac16240904b11755a1",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_A",
+"geo": [
+54,
+88,
+"c81b12614fa7aae2a86c22ed1c307447",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_017_Round": {
+"type": "MESH",
+"mw": "64784b49f0e71f1575d09693a017eda0",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "e8d5b74c60a2f65063947f277661e646",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_B",
+"geo": [
+54,
+88,
+"16ef84591cc4973098a3150d349a85fa",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_018_Round": {
+"type": "MESH",
+"mw": "31401398a4ec69ab40c1636372aa4423",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "b335165f276bfe4f36f2e84ef4290fca",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_A",
+"geo": [
+54,
+88,
+"a9879a3c72b43f67f9509db356dc76d2",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_019_Round": {
+"type": "MESH",
+"mw": "1be561227d0422a73404138f7d249fb6",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "ac14631d5634a439f9f0c364ce54a0cb",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_B",
+"geo": [
+54,
+88,
+"16ef84591cc4973098a3150d349a85fa",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_020_Round": {
+"type": "MESH",
+"mw": "496b53182d5d1d2aeac36e1e6d859fcd",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "b914ccdb8cdccfbb528a0f6519d98d36",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_A",
+"geo": [
+54,
+88,
+"a9879a3c72b43f67f9509db356dc76d2",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_021_Round": {
+"type": "MESH",
+"mw": "a7d5962d1d96853572eb2ce0cbca5b73",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "2050845418582af83287a4fde3678cda",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_B",
+"geo": [
+54,
+88,
+"16ef84591cc4973098a3150d349a85fa",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_022_Oval": {
+"type": "MESH",
+"mw": "2653ae313c20dcba07576add39f98668",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "b8ad16acdae768affd4c331f30d8a6a6",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Oval_A",
+"geo": [
+54,
+88,
+"ca2c2e29ca7459c54e12d4ca24573b8e",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_023_Round": {
+"type": "MESH",
+"mw": "0b2d4c2255ea4a13f89e04dbcc29a3a3",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "cdc2c5c1fde5dcfcc917ac88b720236f",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_B",
+"geo": [
+54,
+88,
+"16ef84591cc4973098a3150d349a85fa",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_024_Round": {
+"type": "MESH",
+"mw": "adff09ea817b013d534f438f23340e14",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "edac5dbc79a791acdf5f217be188e74d",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_A",
+"geo": [
+54,
+88,
+"a9879a3c72b43f67f9509db356dc76d2",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_025_Oval": {
+"type": "MESH",
+"mw": "8fa149e28f6997a391e0e6a97b898eb2",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "0b6211abe37d771f52c75b40f5dd7e63",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Oval_B",
+"geo": [
+54,
+88,
+"1b4f0db7e0288aa6a93f076caaf6024d",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_026_Round": {
+"type": "MESH",
+"mw": "b249be6c1737da2b2283bb0159406906",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "e6f7348404e9ddd1b06bd72c967566b4",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_A",
+"geo": [
+54,
+88,
+"a9879a3c72b43f67f9509db356dc76d2",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_027_Round": {
+"type": "MESH",
+"mw": "e69d1465dff97b64f3f474c0c243b45d",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "0d615b4894cbd2c484b2b6a9a1e3fdab",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_B",
+"geo": [
+54,
+88,
+"16ef84591cc4973098a3150d349a85fa",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_028_Oval": {
+"type": "MESH",
+"mw": "c80b801a65ce9c73818c2ad54052d21d",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "2ec75a23f60ebf5fa4c6eebb4815e6c9",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Oval_A",
+"geo": [
+54,
+88,
+"ca2c2e29ca7459c54e12d4ca24573b8e",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_029_Spread": {
+"type": "MESH",
+"mw": "495c883cf627d7032e10ca1b4523240a",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "936c47b23266c922be8074355f2af4ab",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_B",
+"geo": [
+54,
+88,
+"ff5e8de9aa70388912200c10f5ac727f",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_030_Oval": {
+"type": "MESH",
+"mw": "ba99b1960f86715d84d1261cc400b208",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "6ec24fbb985e8c922d8be3b331cdba5f",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Oval_A",
+"geo": [
+54,
+88,
+"ca2c2e29ca7459c54e12d4ca24573b8e",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_031_Round": {
+"type": "MESH",
+"mw": "7b97baf247c2208085bf1d20d69bc69f",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "d31de301508c379beaf1822109b9bd90",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_B",
+"geo": [
+54,
+88,
+"16ef84591cc4973098a3150d349a85fa",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_032_Pine": {
+"type": "MESH",
+"mw": "dfcf03b4c929c5c990671792a4d933e4",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_Pine"
+],
+"props": "8b292f5b75484b9a9f93b0fa94f9d551",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Pine",
+"geo": [
+138,
+248,
+"3d1715b6db19b932443afe76f84a9520",
+"10d2ff5820cd7774f9d3f961057f4fa8",
+[]
+]
+},
+"CTX_TREE_033_Pine": {
+"type": "MESH",
+"mw": "04bd125ec1627c9c4f146f7a585a546e",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_Pine"
+],
+"props": "9288f364e3aeb920d1892bd186448265",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Pine",
+"geo": [
+138,
+248,
+"3d1715b6db19b932443afe76f84a9520",
+"10d2ff5820cd7774f9d3f961057f4fa8",
+[]
+]
+},
+"CTX_TREE_034_Pine": {
+"type": "MESH",
+"mw": "34b888528d34bddb0128a28983a4c2dd",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_Pine"
+],
+"props": "7f8d5c6176fbfd8aca5511bfbee1961c",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Pine",
+"geo": [
+138,
+248,
+"3d1715b6db19b932443afe76f84a9520",
+"10d2ff5820cd7774f9d3f961057f4fa8",
+[]
+]
+},
+"CTX_TREE_035_Spread": {
+"type": "MESH",
+"mw": "2f4d3fb96d677dffba1eaf8817e0a558",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "7cab24cb60257f09f5620ad3eff92fd9",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_B",
+"geo": [
+54,
+88,
+"ff5e8de9aa70388912200c10f5ac727f",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_036_Round": {
+"type": "MESH",
+"mw": "f7523f85c93e5bcf3acd01c65dc48e27",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "ffdfe27fe6ea9ee0b5fa02dda1c1ff18",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_A",
+"geo": [
+54,
+88,
+"a9879a3c72b43f67f9509db356dc76d2",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_037_Pine": {
+"type": "MESH",
+"mw": "621bfeea7a3444f7de24e09cea64744f",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_Pine"
+],
+"props": "cb9d39a82246718222407ba7c41f7f3a",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Pine",
+"geo": [
+138,
+248,
+"3d1715b6db19b932443afe76f84a9520",
+"10d2ff5820cd7774f9d3f961057f4fa8",
+[]
+]
+},
+"CTX_TREE_038_Pine": {
+"type": "MESH",
+"mw": "b759f36f6538095b9249a69b6223d7ba",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_Pine"
+],
+"props": "710a558056375cab56574bad99b6bfb6",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Pine",
+"geo": [
+138,
+248,
+"3d1715b6db19b932443afe76f84a9520",
+"10d2ff5820cd7774f9d3f961057f4fa8",
+[]
+]
+},
+"CTX_TREE_039_Round": {
+"type": "MESH",
+"mw": "73dd693bd9ef4d1332aa512bd67db2ba",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "8d3c19a3778faaee9bb555d5e0af6277",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_B",
+"geo": [
+54,
+88,
+"16ef84591cc4973098a3150d349a85fa",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_040_Spread": {
+"type": "MESH",
+"mw": "33879e3a6512fe407f376b1f59cc5d30",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "a6fbf8006880b99abe3107bc5a3fb1b7",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_A",
+"geo": [
+54,
+88,
+"c81b12614fa7aae2a86c22ed1c307447",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_041_Round": {
+"type": "MESH",
+"mw": "c88030627a393b474ffc8aa0e5be0e47",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "4a04d1d02a3ae84cd80e7054f400456a",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_B",
+"geo": [
+54,
+88,
+"16ef84591cc4973098a3150d349a85fa",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_042_Oval": {
+"type": "MESH",
+"mw": "09b490bf4552d1953566d65ba7c24bca",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "3333cfea0088823c703c9cb45f5dbdc9",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Oval_A",
+"geo": [
+54,
+88,
+"ca2c2e29ca7459c54e12d4ca24573b8e",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_043_Oval": {
+"type": "MESH",
+"mw": "11e05738cc1ee0554a4fe9146c7bff5c",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "3333cfea0088823c703c9cb45f5dbdc9",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Oval_B",
+"geo": [
+54,
+88,
+"1b4f0db7e0288aa6a93f076caaf6024d",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_044_Spread": {
+"type": "MESH",
+"mw": "a99b32506fddb1bad12b890039390baa",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "c67472f4e8bdb8a63e5997a7513301c7",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_A",
+"geo": [
+54,
+88,
+"c81b12614fa7aae2a86c22ed1c307447",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_045_Round": {
+"type": "MESH",
+"mw": "7c0a77fa6112b3c3df3e16ebfd1a847d",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "d19da62e7e605c66dd7fdc34217f3931",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_B",
+"geo": [
+54,
+88,
+"16ef84591cc4973098a3150d349a85fa",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_046_Spread": {
+"type": "MESH",
+"mw": "d2b65a54490df543437b1ef3122b20a5",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "b15a924cae5c4bcb19629399482f7a56",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_A",
+"geo": [
+54,
+88,
+"c81b12614fa7aae2a86c22ed1c307447",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_047_Oval": {
+"type": "MESH",
+"mw": "a6d95aa14557604ce4284c0b0fd25c19",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "e4e7cac9445d1645095ed87a605f3961",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Oval_B",
+"geo": [
+54,
+88,
+"1b4f0db7e0288aa6a93f076caaf6024d",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_048_Spread": {
+"type": "MESH",
+"mw": "6fe1884fdd74b75ef83e722d74a01c5f",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "9e49e7ac8f097736c7635a8c6cec441a",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_A",
+"geo": [
+54,
+88,
+"c81b12614fa7aae2a86c22ed1c307447",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_049_Round": {
+"type": "MESH",
+"mw": "6705469e4ef9d9b1b378a4b86ab42b4d",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "a6c5b8f3034724d3ee7931c904ea8485",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_B",
+"geo": [
+54,
+88,
+"16ef84591cc4973098a3150d349a85fa",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_050_Spread": {
+"type": "MESH",
+"mw": "4cc337d96074401b8a82163dfac387c9",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "5c4ba6b7e43ae51dd50801fa44763f39",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_A",
+"geo": [
+54,
+88,
+"c81b12614fa7aae2a86c22ed1c307447",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_051_Spread": {
+"type": "MESH",
+"mw": "b0a5ab58ef0a589bbdb383d3cb461b21",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "bc08c63d6cedac20c84ff265c0127cfe",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_B",
+"geo": [
+54,
+88,
+"ff5e8de9aa70388912200c10f5ac727f",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_052_Spread": {
+"type": "MESH",
+"mw": "0ae80f7b77872877ae886eea8d59d5bd",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "8b19a7c765014b422164d41866a7285a",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_A",
+"geo": [
+54,
+88,
+"c81b12614fa7aae2a86c22ed1c307447",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_053_Round": {
+"type": "MESH",
+"mw": "c61d5fae904e27e42c4ad538193f6dd1",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "f1f733c7bec2b760d2691abc631033a3",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_B",
+"geo": [
+54,
+88,
+"16ef84591cc4973098a3150d349a85fa",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_054_Round": {
+"type": "MESH",
+"mw": "dbf13257de8c8989bf0ff840ce52ce22",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "a67354a7a10822360f517159c1e2685a",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_A",
+"geo": [
+54,
+88,
+"a9879a3c72b43f67f9509db356dc76d2",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_055_Spread": {
+"type": "MESH",
+"mw": "369d40bec844b6de137910b69f0a7656",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "1f963f6ba8a99b712cea13f9adf5afbb",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_B",
+"geo": [
+54,
+88,
+"ff5e8de9aa70388912200c10f5ac727f",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_056_Round": {
+"type": "MESH",
+"mw": "b00fa42f5ef96585fafba83877993a07",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "971877b8d4299712edeb67b6a6cef2b8",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_A",
+"geo": [
+54,
+88,
+"a9879a3c72b43f67f9509db356dc76d2",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_057_Spread": {
+"type": "MESH",
+"mw": "260fa16825ea193aed9034abe352afcb",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "ebb3fcdb3e0ed81458dc5fed470e3e5e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_B",
+"geo": [
+54,
+88,
+"ff5e8de9aa70388912200c10f5ac727f",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_058_Pine": {
+"type": "MESH",
+"mw": "9ee9c7bcd16af5c06cd0ddb88067eeba",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_Pine"
+],
+"props": "9524c5eed9b89db3e31f6b85a33c34b1",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Pine",
+"geo": [
+138,
+248,
+"3d1715b6db19b932443afe76f84a9520",
+"10d2ff5820cd7774f9d3f961057f4fa8",
+[]
+]
+},
+"CTX_TREE_059_Spread": {
+"type": "MESH",
+"mw": "831458def75e9770bcdc5ec6985c33c9",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "1539396207366f2711d572f7e0baac26",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_B",
+"geo": [
+54,
+88,
+"ff5e8de9aa70388912200c10f5ac727f",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_060_Oval": {
+"type": "MESH",
+"mw": "ad44a6a808024b1151bcd8ad9419ef37",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "da96cec8dc7acc090ffa2626d22119a6",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Oval_A",
+"geo": [
+54,
+88,
+"ca2c2e29ca7459c54e12d4ca24573b8e",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_061_Spread": {
+"type": "MESH",
+"mw": "bdbf38f3fd44e029ee40158d14395826",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "6529e87495cf35c24a3dc92e56ac3dcb",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_B",
+"geo": [
+54,
+88,
+"ff5e8de9aa70388912200c10f5ac727f",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_062_Spread": {
+"type": "MESH",
+"mw": "fbed7937d52c6dd9f7e63c9925aa2c6e",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "a3e84429f4215e4eb4636b69412e8bab",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_A",
+"geo": [
+54,
+88,
+"c81b12614fa7aae2a86c22ed1c307447",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_063_Spread": {
+"type": "MESH",
+"mw": "9af43ffdf26f4bd5d86cdff975d7b4c5",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "45b5923f8fc743d0329bbcf3ec1be9f7",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_B",
+"geo": [
+54,
+88,
+"ff5e8de9aa70388912200c10f5ac727f",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_064_Round": {
+"type": "MESH",
+"mw": "d787aff0f9fa5e5919793e8db9bab9ce",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "d97722be57d9440e4937829497194f88",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_A",
+"geo": [
+54,
+88,
+"a9879a3c72b43f67f9509db356dc76d2",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_065_Oval": {
+"type": "MESH",
+"mw": "a838fb65b6c1a228e30d038203b0bf61",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "e540de973fd4ff4aa2f9e4a7333deaa4",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Oval_B",
+"geo": [
+54,
+88,
+"1b4f0db7e0288aa6a93f076caaf6024d",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_066_Round": {
+"type": "MESH",
+"mw": "108366f8aa70512334c4165e2ee36bc4",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "b2c2cb176b499bae1d06ccd43f6b369f",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_A",
+"geo": [
+54,
+88,
+"a9879a3c72b43f67f9509db356dc76d2",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_067_Round": {
+"type": "MESH",
+"mw": "dd2bedeae4766cfa8bfd30f1f820ebaf",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "b2c2cb176b499bae1d06ccd43f6b369f",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_B",
+"geo": [
+54,
+88,
+"16ef84591cc4973098a3150d349a85fa",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_068_Round": {
+"type": "MESH",
+"mw": "9f755fffef0691ab9c78a582de4573ec",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "ac281c8e03de7675fdfe8a8c2748a6d6",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_A",
+"geo": [
+54,
+88,
+"a9879a3c72b43f67f9509db356dc76d2",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_069_Spread": {
+"type": "MESH",
+"mw": "4e0c3d29bd7cea3449e66a22bba4e5e7",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "6f45855ff64cf1e598191b0781d13d03",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_B",
+"geo": [
+54,
+88,
+"ff5e8de9aa70388912200c10f5ac727f",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_070_Spread": {
+"type": "MESH",
+"mw": "a80a7d07d5113dc7e608d2a04ab9f724",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "4db6f2bca8d988bd9bbf2a714555102e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_A",
+"geo": [
+54,
+88,
+"c81b12614fa7aae2a86c22ed1c307447",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_071_Spread": {
+"type": "MESH",
+"mw": "38d29f10f6264b3edb5fe2d1eca912f6",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "4db6f2bca8d988bd9bbf2a714555102e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_B",
+"geo": [
+54,
+88,
+"ff5e8de9aa70388912200c10f5ac727f",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_072_Round": {
+"type": "MESH",
+"mw": "ec472e15e2ff14fcf88f9d63cf95501a",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "6f66801c57f4af69cd43b420ffa68925",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_A",
+"geo": [
+54,
+88,
+"a9879a3c72b43f67f9509db356dc76d2",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_073_Round": {
+"type": "MESH",
+"mw": "9fbe7dca8c5f052a9dd3a3c2fe9df84b",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "0f2f642cf941f97f005d5cbace919246",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_B",
+"geo": [
+54,
+88,
+"16ef84591cc4973098a3150d349a85fa",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_074_Round": {
+"type": "MESH",
+"mw": "8632e92bd3a9ef266741974fea2507f4",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "6f66801c57f4af69cd43b420ffa68925",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Round_A",
+"geo": [
+54,
+88,
+"a9879a3c72b43f67f9509db356dc76d2",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_075_Oval": {
+"type": "MESH",
+"mw": "e10b47e7dc21f53b64c1873fd5b4931e",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "4e2d6e1651519b6308e0e6ff27921600",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Oval_B",
+"geo": [
+54,
+88,
+"1b4f0db7e0288aa6a93f076caaf6024d",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_076_Oval": {
+"type": "MESH",
+"mw": "5ff6d1c0f1d898966926ed2a9a6006c7",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "cedb0333874f6f79985c7eb25eb6b395",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Oval_A",
+"geo": [
+54,
+88,
+"ca2c2e29ca7459c54e12d4ca24573b8e",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_077_Spread": {
+"type": "MESH",
+"mw": "aa8ead79656cad12329f62ea57e6cac5",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "e86e8594cac8b84e1b8c8a6b077c19f6",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_B",
+"geo": [
+54,
+88,
+"ff5e8de9aa70388912200c10f5ac727f",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_078_Spread": {
+"type": "MESH",
+"mw": "dcc11e25c565273ae3ebc08082b6f3c0",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_A"
+],
+"props": "4a2428c3d69e98ea8ccdbbd15784d038",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_A",
+"geo": [
+54,
+88,
+"c81b12614fa7aae2a86c22ed1c307447",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_TREE_079_Spread": {
+"type": "MESH",
+"mw": "ec032f7eae126952f4be24bd4829fa55",
+"parent": null,
+"mats": [
+"MAT_CTX_TreeTrunk",
+"MAT_CTX_TreeCanopy_B"
+],
+"props": "41c832538383d6fd60bf985b1569567a",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Trees"
+],
+"data": "CTX_TreeMesh_Spread_B",
+"geo": [
+54,
+88,
+"ff5e8de9aa70388912200c10f5ac727f",
+"4862c18698c3247cb44df999f0426fc4",
+[]
+]
+},
+"CTX_VEH_00_SB_SB_L1": {
+"type": "MESH",
+"mw": "726a2db2713bd5ecc2a7e08705cbd161",
+"parent": null,
+"mats": [
+"MAT_CTX_Car_Red",
+"MAT_CTX_Car_Glass",
+"MAT_CTX_Car_Tyre"
+],
+"props": "556f8343aefd1380199ab6afa5a0d5f9",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Vehicles"
+],
+"data": "CTX_VehMesh_SUV_Red",
+"geo": [
+102,
+63,
+"6ce35b5ac1d69d46cf2df77548770fb8",
+"b2fdc5298e3117e09a30ee6c88b70055",
+[]
+]
+},
+"CTX_VEH_01_SB_SB_L3": {
+"type": "MESH",
+"mw": "934e056767312475f323ea9c48a30826",
+"parent": null,
+"mats": [
+"MAT_CTX_Car_Blue",
+"MAT_CTX_Car_Glass",
+"MAT_CTX_Car_Tyre"
+],
+"props": "59c07bfe4d61a87cc8c74633df2cbf05",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Vehicles"
+],
+"data": "CTX_VehMesh_Pickup_Blue",
+"geo": [
+102,
+63,
+"8bc4f9e3f7f8a9581165ae4dc9f900c9",
+"b2fdc5298e3117e09a30ee6c88b70055",
+[]
+]
+},
+"CTX_VEH_02_SB_EB_L1": {
+"type": "MESH",
+"mw": "10eb78837b6a510b8495fcc489a8e3bf",
+"parent": null,
+"mats": [
+"MAT_CTX_Car_Silver",
+"MAT_CTX_Car_Glass",
+"MAT_CTX_Car_Tyre"
+],
+"props": "3b7db766fd2a45e538f232b2d02a47fe",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Vehicles"
+],
+"data": "CTX_VehMesh_Pickup_Silver",
+"geo": [
+102,
+63,
+"8bc4f9e3f7f8a9581165ae4dc9f900c9",
+"b2fdc5298e3117e09a30ee6c88b70055",
+[]
+]
+},
+"CTX_VEH_03_SB_EB_L3": {
+"type": "MESH",
+"mw": "4bfbdd80d11d3bf4c94b0418797db92b",
+"parent": null,
+"mats": [
+"MAT_CTX_Car_Blue",
+"MAT_CTX_Car_Glass",
+"MAT_CTX_Car_Tyre"
+],
+"props": "7a6c7f67b51bb90e3e9fd9bfc239ccd8",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Vehicles"
+],
+"data": "CTX_VehMesh_Sedan_Blue",
+"geo": [
+104,
+64,
+"6146d9b897ae43ade5937db5f04ac72a",
+"c7a029d7dbdd1727bf0c6e67b33a27ea",
+[]
+]
+},
+"CTX_VEH_04_SB_EB_L4": {
+"type": "MESH",
+"mw": "dad1aaa7f7843f30d104d70ac0d69ee3",
+"parent": null,
+"mats": [
+"MAT_CTX_Car_Blue",
+"MAT_CTX_Car_Glass",
+"MAT_CTX_Car_Tyre"
+],
+"props": "7d35fe0231d47f0b5bb92bafa3bd4ccd",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Vehicles"
+],
+"data": "CTX_VehMesh_Pickup_Blue",
+"geo": [
+102,
+63,
+"8bc4f9e3f7f8a9581165ae4dc9f900c9",
+"b2fdc5298e3117e09a30ee6c88b70055",
+[]
+]
+},
+"CTX_VEH_05_SB_WB_L1": {
+"type": "MESH",
+"mw": "76d8437cd77844815693a236a7244940",
+"parent": null,
+"mats": [
+"MAT_CTX_Car_Red",
+"MAT_CTX_Car_Glass",
+"MAT_CTX_Car_Tyre"
+],
+"props": "38050dbb0d4f3b007fb038fe0a0ce4b0",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Vehicles"
+],
+"data": "CTX_VehMesh_Sedan_Red",
+"geo": [
+104,
+64,
+"6146d9b897ae43ade5937db5f04ac72a",
+"c7a029d7dbdd1727bf0c6e67b33a27ea",
+[]
+]
+},
+"CTX_VEH_06_SB_WB_L3": {
+"type": "MESH",
+"mw": "f1b27b39479290400e260f9910ea7ea3",
+"parent": null,
+"mats": [
+"MAT_CTX_Car_White",
+"MAT_CTX_Car_Glass",
+"MAT_CTX_Car_Tyre"
+],
+"props": "b309f2adba4bf6b9c641df5a59ef9fee",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Vehicles"
+],
+"data": "CTX_VehMesh_Pickup_White",
+"geo": [
+102,
+63,
+"8bc4f9e3f7f8a9581165ae4dc9f900c9",
+"b2fdc5298e3117e09a30ee6c88b70055",
+[]
+]
+},
+"CTX_VEH_07_NB_NB_L1": {
+"type": "MESH",
+"mw": "e9345cfe8ce203e3c89374c80f26d6fd",
+"parent": null,
+"mats": [
+"MAT_CTX_Car_Silver",
+"MAT_CTX_Car_Glass",
+"MAT_CTX_Car_Tyre"
+],
+"props": "5acb803e9895433f5f68ba24b0962399",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Vehicles"
+],
+"data": "CTX_VehMesh_Pickup_Silver",
+"geo": [
+102,
+63,
+"8bc4f9e3f7f8a9581165ae4dc9f900c9",
+"b2fdc5298e3117e09a30ee6c88b70055",
+[]
+]
+},
+"CTX_VEH_08_NB_NB_L3": {
+"type": "MESH",
+"mw": "95c89f5db7f204bb87570cafe6afda44",
+"parent": null,
+"mats": [
+"MAT_CTX_Car_Silver",
+"MAT_CTX_Car_Glass",
+"MAT_CTX_Car_Tyre"
+],
+"props": "262743c7e3e9bd70f287aad4063c5d60",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Vehicles"
+],
+"data": "CTX_VehMesh_SUV_Silver",
+"geo": [
+102,
+63,
+"6ce35b5ac1d69d46cf2df77548770fb8",
+"b2fdc5298e3117e09a30ee6c88b70055",
+[]
+]
+},
+"CTX_VEH_09_NB_EB_L1": {
+"type": "MESH",
+"mw": "2e5ecd83f7bc0f45dbcf727769ff58b8",
+"parent": null,
+"mats": [
+"MAT_CTX_Car_Blue",
+"MAT_CTX_Car_Glass",
+"MAT_CTX_Car_Tyre"
+],
+"props": "5b73928bf969c37855ff96db50736aea",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Vehicles"
+],
+"data": "CTX_VehMesh_Sedan_Blue",
+"geo": [
+104,
+64,
+"6146d9b897ae43ade5937db5f04ac72a",
+"c7a029d7dbdd1727bf0c6e67b33a27ea",
+[]
+]
+},
+"CTX_VEH_10_NB_EB_L3": {
+"type": "MESH",
+"mw": "7a4f609a8bc4a92df679c332f41cf7c2",
+"parent": null,
+"mats": [
+"MAT_CTX_Car_Red",
+"MAT_CTX_Car_Glass",
+"MAT_CTX_Car_Tyre"
+],
+"props": "5112d9373e463934a465ff260b7378f1",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Vehicles"
+],
+"data": "CTX_VehMesh_SUV_Red",
+"geo": [
+102,
+63,
+"6ce35b5ac1d69d46cf2df77548770fb8",
+"b2fdc5298e3117e09a30ee6c88b70055",
+[]
+]
+},
+"CTX_VEH_11_NB_WB_L1": {
+"type": "MESH",
+"mw": "b695634d06d57d15631df4f4617b3afd",
+"parent": null,
+"mats": [
+"MAT_CTX_Car_Red",
+"MAT_CTX_Car_Glass",
+"MAT_CTX_Car_Tyre"
+],
+"props": "9b845c431e55b3aa86dcd9473d794e52",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Vehicles"
+],
+"data": "CTX_VehMesh_Pickup_Red",
+"geo": [
+102,
+63,
+"8bc4f9e3f7f8a9581165ae4dc9f900c9",
+"b2fdc5298e3117e09a30ee6c88b70055",
+[]
+]
+},
+"CTX_VEH_12_NB_WB_L3": {
+"type": "MESH",
+"mw": "d758a6d134ec02f48fe5a173c1bce42a",
+"parent": null,
+"mats": [
+"MAT_CTX_Car_Silver",
+"MAT_CTX_Car_Glass",
+"MAT_CTX_Car_Tyre"
+],
+"props": "a053c308019f6c92f781f9d2e17a1a00",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Vehicles"
+],
+"data": "CTX_VehMesh_Sedan_Silver",
+"geo": [
+104,
+64,
+"6146d9b897ae43ade5937db5f04ac72a",
+"c7a029d7dbdd1727bf0c6e67b33a27ea",
+[]
+]
+},
+"CTX_VEH_13_NB_WB_L4": {
+"type": "MESH",
+"mw": "5dd3c06d645edf6e3191ed2d4d80304a",
+"parent": null,
+"mats": [
+"MAT_CTX_Car_Blue",
+"MAT_CTX_Car_Glass",
+"MAT_CTX_Car_Tyre"
+],
+"props": "ed61fcf33a2615a1097d075b08635b45",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"CTX_Vehicles"
+],
+"data": "CTX_VehMesh_SUV_Blue",
+"geo": [
+102,
+63,
+"6ce35b5ac1d69d46cf2df77548770fb8",
+"b2fdc5298e3117e09a30ee6c88b70055",
+[]
+]
+},
+"E_CTMS_Hub": {
+"type": "MESH",
+"mw": "4f3e43a3c631ecf478f7b9d3e0fc11d9",
+"parent": null,
+"mats": [
+"MAT_Cabinet",
+"MAT_Concrete"
+],
+"props": "b79b1cb07307ee54e26f225544da0b4c",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals_Remain"
+],
+"data": "E_CTMS_Hub",
+"geo": [
+24,
+18,
+"f674b15553e65871da4ede08204c440f",
+"a2e6da6648930d8536f6bb6b800fdee5",
+[]
+]
+},
+"E_CTRL_L": {
+"type": "MESH",
+"mw": "2b3db6069a5a044d62f785985f46b6a4",
+"parent": null,
+"mats": [
+"MAT_Cabinet",
+"MAT_Concrete"
+],
+"props": "f36f7c15c5604d281ce958815f018f6a",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_CTRL_L",
+"geo": [
+24,
+18,
+"9389b05cb8c9ba5ec86a9a476dbd003b",
+"a2e6da6648930d8536f6bb6b800fdee5",
+[]
+]
+},
+"E_ELECSVC_M1": {
+"type": "MESH",
+"mw": "c73cfb7ceb8a442a63a0cc7fab244b87",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Cabinet",
+"MAT_Concrete"
+],
+"props": "666433289e3c1133483edd2133081d30",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_ELECSVC_M1",
+"geo": [
+84,
+52,
+"0ca3f983b1c630b93c13c74644d5a7f2",
+"19ef15b9fcdcb0927c56a3dfee136232",
+[]
+]
+},
+"E_ELECSVC_M2": {
+"type": "MESH",
+"mw": "09c4ccecd01e644bcbef946075f1e83c",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Cabinet",
+"MAT_Concrete"
+],
+"props": "666433289e3c1133483edd2133081d30",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_ELECSVC_M2",
+"geo": [
+84,
+52,
+"0ca3f983b1c630b93c13c74644d5a7f2",
+"19ef15b9fcdcb0927c56a3dfee136232",
+[]
+]
+},
+"E_HEAD_A_3sec": {
+"type": "MESH",
+"mw": "6fba8a7dbc657c2a8584aeb7cc3c29cf",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green"
+],
+"props": "0281c0f518dc6e4d2c89906221c8e258",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_HEAD_A_3sec",
+"geo": [
+88,
+41,
+"eee48b866e814d967ae1078d99890aa8",
+"1129552ac240b321e8026c459c3a0fde",
+[]
+]
+},
+"E_HEAD_B_3sec_OneWay": {
+"type": "MESH",
+"mw": "2b42570ce95de9f7729fa20f66c83e71",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Sign_White",
+"MAT_Sign_Black"
+],
+"props": "2cb47aea9a412087ef0fe7b8e29fca3c",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_HEAD_B_3sec_OneWay",
+"geo": [
+115,
+60,
+"d8859f384ace93b132a7c1ecd8ab7dce",
+"bb6429847358b78f0d109511352e317b",
+[]
+]
+},
+"E_HEAD_C_3sec": {
+"type": "MESH",
+"mw": "aa3cd6fbe68943d4dbcfe9605a42519f",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green"
+],
+"props": "e04721801269487a927451f3f286bdf9",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_HEAD_C_3sec",
+"geo": [
+88,
+41,
+"762f9716658fe850ad7a0e94696f9710",
+"fd28438b6acf95c53cb25360c3de7dc0",
+[]
+]
+},
+"E_HEAD_D_3sec": {
+"type": "MESH",
+"mw": "888615a9442539512401079145cee1a9",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green"
+],
+"props": "494aa332c46c5074297c6adc21a1eb5e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_HEAD_D_3sec",
+"geo": [
+88,
+41,
+"c7a751d4c02781d91db0697d965d6213",
+"fd28438b6acf95c53cb25360c3de7dc0",
+[]
+]
+},
+"E_HEAD_E_4secV": {
+"type": "MESH",
+"mw": "aaa85c0f8f22441ef4a4430855742c27",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green"
+],
+"props": "cd8697e785f7942bda64c05d5e3a9630",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_HEAD_E_4secV",
+"geo": [
+120,
+56,
+"9eadc2960fbe95ab7676b55e7667ce96",
+"15339c15a4902700b781e592909c59b4",
+[]
+]
+},
+"E_HEAD_F_3sec": {
+"type": "MESH",
+"mw": "0d93132350eacf3abe31db973b085599",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green"
+],
+"props": "465e253c2d474844f31cd0959c9e06c1",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_HEAD_F_3sec",
+"geo": [
+88,
+41,
+"71224f8d2f98a849b035e45a05ffe1c3",
+"b275231b56d2295ae06f7b9bfdee712f",
+[]
+]
+},
+"E_HEAD_G_3sec_OneWay": {
+"type": "MESH",
+"mw": "31fa08aa07e8ac00571777c18bd17a4c",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Sign_White",
+"MAT_Sign_Black"
+],
+"props": "41174872a90f2516c63df44d5de2a345",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_HEAD_G_3sec_OneWay",
+"geo": [
+115,
+60,
+"db7562f876d3df0990f9e60bff101e8c",
+"ad34147352714e68ef1a3e8e26548931",
+[]
+]
+},
+"E_HEAD_H_3sec": {
+"type": "MESH",
+"mw": "9fbf35ad551278b3a86b7459aab2ca30",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green"
+],
+"props": "067a3aa55118b45872515abef04cf7e3",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_HEAD_H_3sec",
+"geo": [
+88,
+41,
+"a39a577fdc8e8dfd9218c95eb90ad144",
+"433c21fa5e8c1f3feb3a8bf0e708a634",
+[]
+]
+},
+"E_HEAD_J_3sec_OneWay": {
+"type": "MESH",
+"mw": "08b40f5f92f06ca4590fb81cfa0970e5",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Sign_White",
+"MAT_Sign_Black"
+],
+"props": "4e036cfad2e6ff602726eb9b2a22d0a5",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_HEAD_J_3sec_OneWay",
+"geo": [
+115,
+60,
+"fc43197a966033b46415e24ea3387bdf",
+"5ab3836f50bfb4aad088c9c063032b44",
+[]
+]
+},
+"E_HEAD_K_3sec": {
+"type": "MESH",
+"mw": "4c9265d636cbef7ee76d4ada280007a9",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green"
+],
+"props": "ba63337ddd87bf582d19f19944b3f0b4",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_HEAD_K_3sec",
+"geo": [
+88,
+41,
+"88daa58a3b2405c1bc4b98e7cd4f7c8b",
+"1129552ac240b321e8026c459c3a0fde",
+[]
+]
+},
+"E_HEAD_L_3sec": {
+"type": "MESH",
+"mw": "5cb008bd3a69b254bbf85815d22ed201",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green"
+],
+"props": "0636112f5df79e242e85de0d72751770",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_HEAD_L_3sec",
+"geo": [
+88,
+41,
+"5d01d945359efb066d69ee0390d72c5a",
+"433c21fa5e8c1f3feb3a8bf0e708a634",
+[]
+]
+},
+"E_HEAD_M_4secV": {
+"type": "MESH",
+"mw": "8e701b6e5417f46c0263289cc386aa50",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green"
+],
+"props": "6672080c297162a4b57cd5658121637a",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_HEAD_M_4secV",
+"geo": [
+120,
+56,
+"5272713d43fe5b2c542c1eaacf0ba04c",
+"77b8c90f11e8da01a7733adb5c821b1b",
+[]
+]
+},
+"E_HEAD_N_3sec": {
+"type": "MESH",
+"mw": "718a4c7e870fb31f07b0e31f8be6066e",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green"
+],
+"props": "b819d62af9af4e3a6838c72b4adfbabf",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_HEAD_N_3sec",
+"geo": [
+88,
+41,
+"f4f449d70f0b7a5238cd436493a09a7d",
+"b275231b56d2295ae06f7b9bfdee712f",
+[]
+]
+},
+"E_HEAD_P_3sec_OneWay": {
+"type": "MESH",
+"mw": "81436ff12124ddf6c7ffa0e171635a98",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Sign_White",
+"MAT_Sign_Black"
+],
+"props": "004e592eb26f82539ec0874cb9062640",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_HEAD_P_3sec_OneWay",
+"geo": [
+115,
+60,
+"9ca0d4bc8b17ec1a8bd0f2a7f4d07595",
+"e43fc13e7d0e988c397ac2adf69f8ec2",
+[]
+]
+},
+"E_ISL_Center_Median": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_Island_Concrete"
+],
+"props": "e648e3b712a5656ff69a7f312065cace",
+"mods": "91fd363b93cf4c55124a7c2506b72924",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Roadway"
+],
+"data": "E_ISL_Center_Median",
+"geo": [
+219,
+217,
+"c9881dd6a660b050ea5f2981a37a4f5f",
+"dbf8df73a70982fefc10093e52ce4cfc",
+[
+"rastUVmap"
+]
+]
+},
+"E_ISL_E_Median": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_Island_Concrete"
+],
+"props": "e648e3b712a5656ff69a7f312065cace",
+"mods": "91fd363b93cf4c55124a7c2506b72924",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Roadway"
+],
+"data": "E_ISL_E_Median",
+"geo": [
+396,
+382,
+"27b13de526f4c12313998dfb5a903802",
+"049d4cc8cc278761bc696b8a826def61",
+[
+"rastUVmap"
+]
+]
+},
+"E_ISL_N_UturnMedian": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_Island_Concrete"
+],
+"props": "e648e3b712a5656ff69a7f312065cace",
+"mods": "91fd363b93cf4c55124a7c2506b72924",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Roadway"
+],
+"data": "E_ISL_N_UturnMedian",
+"geo": [
+374,
+365,
+"48cdb28ce62a6cf11024a5f713764211",
+"77eb824825efc7b6c60f4650dd799d48",
+[
+"rastUVmap"
+]
+]
+},
+"E_ISL_NB_RT_Triangle": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_Island_Concrete"
+],
+"props": "e648e3b712a5656ff69a7f312065cace",
+"mods": "91fd363b93cf4c55124a7c2506b72924",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Roadway"
+],
+"data": "E_ISL_NB_RT_Triangle",
+"geo": [
+3402,
+3339,
+"51e7ec15da8461aad7a73899c36269bc",
+"a0155229851620ed5cfc7d3a2481131f",
+[
+"rastUVmap"
+]
+]
+},
+"E_ISL_NE_Landscaped": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_Grass"
+],
+"props": "e648e3b712a5656ff69a7f312065cace",
+"mods": "91fd363b93cf4c55124a7c2506b72924",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Roadway"
+],
+"data": "E_ISL_NE_Landscaped",
+"geo": [
+332,
+326,
+"25590723edd4a7a09499aa99613cc99a",
+"2dcfe35979ebf11e7f655dd8dc6c122d",
+[
+"rastUVmap"
+]
+]
+},
+"E_ISL_S_UturnMedian": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_Island_Concrete"
+],
+"props": "e648e3b712a5656ff69a7f312065cace",
+"mods": "91fd363b93cf4c55124a7c2506b72924",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Roadway"
+],
+"data": "E_ISL_S_UturnMedian",
+"geo": [
+376,
+366,
+"870c15b46ad23331a7a57f5aee467fe9",
+"d129553884a87cd16d11d945a00a55bd",
+[
+"rastUVmap"
+]
+]
+},
+"E_ISL_SB_RT_Triangle": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_Island_Concrete"
+],
+"props": "e648e3b712a5656ff69a7f312065cace",
+"mods": "91fd363b93cf4c55124a7c2506b72924",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Roadway"
+],
+"data": "E_ISL_SB_RT_Triangle",
+"geo": [
+1944,
+1892,
+"2c4cbfc570f697ae92947b28293e34e6",
+"dd034899c681afb46e8fac735f258f98",
+[
+"rastUVmap"
+]
+]
+},
+"E_ISL_W_Median": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_Island_Concrete"
+],
+"props": "e648e3b712a5656ff69a7f312065cace",
+"mods": "91fd363b93cf4c55124a7c2506b72924",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Roadway"
+],
+"data": "E_ISL_W_Median",
+"geo": [
+251,
+237,
+"bb2eb3b8cd639cfe8733b9366acce0df",
+"98040b9bf563dc3bb4f573f30d08463e",
+[
+"rastUVmap"
+]
+]
+},
+"E_ITSGB_1": {
+"type": "MESH",
+"mw": "ee345d6de098e5fb6c1262c3f7824184",
+"parent": null,
+"mats": [
+"MAT_Concrete",
+"MAT_GroundBox_Lid"
+],
+"props": "a99540bb79dc709978e41fea58c0e2c4",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals_Remain"
+],
+"data": "E_ITSGB_1",
+"geo": [
+16,
+12,
+"42575a36e75226f3d81a4990fcaa3f97",
+"58bca7f5012669fa3cd84509456ddccb",
+[]
+]
+},
+"E_ITSGB_2": {
+"type": "MESH",
+"mw": "15b58953d1115fb39ba446244bb7e896",
+"parent": null,
+"mats": [
+"MAT_Concrete",
+"MAT_GroundBox_Lid"
+],
+"props": "a99540bb79dc709978e41fea58c0e2c4",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals_Remain"
+],
+"data": "E_ITSGB_2",
+"geo": [
+16,
+12,
+"04414a3e8607a6d92e021e9ecb3bfaab",
+"58bca7f5012669fa3cd84509456ddccb",
+[]
+]
+},
+"E_ITSGB_3": {
+"type": "MESH",
+"mw": "805c8838af86ad5784b9c3cd0d5c0e72",
+"parent": null,
+"mats": [
+"MAT_Concrete",
+"MAT_GroundBox_Lid"
+],
+"props": "a99540bb79dc709978e41fea58c0e2c4",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals_Remain"
+],
+"data": "E_ITSGB_3",
+"geo": [
+16,
+12,
+"04414a3e8607a6d92e021e9ecb3bfaab",
+"58bca7f5012669fa3cd84509456ddccb",
+[]
+]
+},
+"E_ITSGB_4": {
+"type": "MESH",
+"mw": "589d461e3f3b82c62ccc4447828c7c3a",
+"parent": null,
+"mats": [
+"MAT_Concrete",
+"MAT_GroundBox_Lid"
+],
+"props": "64ccd85a4cc8ee9273684ab8024b4568",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals_Remain"
+],
+"data": "E_ITSGB_4",
+"geo": [
+16,
+12,
+"04414a3e8607a6d92e021e9ecb3bfaab",
+"58bca7f5012669fa3cd84509456ddccb",
+[]
+]
+},
+"E_ITSGB_5": {
+"type": "MESH",
+"mw": "295dca4c23c34d3f798d7c055c071edc",
+"parent": null,
+"mats": [
+"MAT_Concrete",
+"MAT_GroundBox_Lid"
+],
+"props": "64ccd85a4cc8ee9273684ab8024b4568",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals_Remain"
+],
+"data": "E_ITSGB_5",
+"geo": [
+16,
+12,
+"04414a3e8607a6d92e021e9ecb3bfaab",
+"58bca7f5012669fa3cd84509456ddccb",
+[]
+]
+},
+"E_ITSGB_6": {
+"type": "MESH",
+"mw": "2b6de0a0ae8157a4261d9aab4b28e4c7",
+"parent": null,
+"mats": [
+"MAT_Concrete",
+"MAT_GroundBox_Lid"
+],
+"props": "64ccd85a4cc8ee9273684ab8024b4568",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals_Remain"
+],
+"data": "E_ITSGB_6",
+"geo": [
+16,
+12,
+"04414a3e8607a6d92e021e9ecb3bfaab",
+"58bca7f5012669fa3cd84509456ddccb",
+[]
+]
+},
+"E_ITSGB_7": {
+"type": "MESH",
+"mw": "f31e513d63865ec67c3ba7a4eb072e1d",
+"parent": null,
+"mats": [
+"MAT_Concrete",
+"MAT_GroundBox_Lid"
+],
+"props": "64ccd85a4cc8ee9273684ab8024b4568",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals_Remain"
+],
+"data": "E_ITSGB_7",
+"geo": [
+16,
+12,
+"04414a3e8607a6d92e021e9ecb3bfaab",
+"58bca7f5012669fa3cd84509456ddccb",
+[]
+]
+},
+"E_MA_C_Dual55x32ft": {
+"type": "MESH",
+"mw": "c40fac2c47d4bfd0c6c691b99183ab5b",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_Green",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete",
+"MAT_Lum_Lens"
+],
+"props": "54f05cee6bba09aaf4659197a3932b96",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_MA_C_Dual55x32ft",
+"geo": [
+2177,
+2002,
+"e0aa9b9ad37b3882669272d255666e19",
+"7150bfa8114891e248a20826662c4a53",
+[
+"UVMap"
+]
+]
+},
+"E_MA_E_44ft": {
+"type": "MESH",
+"mw": "565b26203fb738bf109a69528938dd16",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_Green",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete",
+"MAT_Lum_Lens"
+],
+"props": "8e97c5dd008b0f4a750120ccfeb173fe",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_MA_E_44ft",
+"geo": [
+643,
+531,
+"18847931f05ca5b0a56e0bcdc250c629",
+"bdee9184778d1c5917e7584caa767e3e",
+[
+"UVMap"
+]
+]
+},
+"E_MA_H_Dual55x32ft": {
+"type": "MESH",
+"mw": "552e5ffab62724cb20a6f885b78cca8e",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_Green",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete",
+"MAT_Lum_Lens"
+],
+"props": "10ab1f4af13b7e1f2d0928b8c0184b78",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_MA_H_Dual55x32ft",
+"geo": [
+2177,
+2002,
+"2a4933752b7734f48da6cb374fcfc86b",
+"e5d9ed5efd7516c6788efecfc74aaa81",
+[
+"UVMap"
+]
+]
+},
+"E_MA_K_44ft": {
+"type": "MESH",
+"mw": "1ffb4d9d8fea71dcab6e8d484188e301",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_Green",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete",
+"MAT_Lum_Lens"
+],
+"props": "3ae6f5c18e963952b7fb4728574088ba",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_MA_K_44ft",
+"geo": [
+643,
+531,
+"bf5b2624d0cc1fcf010d2277e2609740",
+"ab6d5b00c8fe45761a9cccca23e9061a",
+[
+"UVMap"
+]
+]
+},
+"E_MK_White": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_Paint_White"
+],
+"props": "16e745f13451a4f26801707c5225352a",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Markings"
+],
+"data": "E_MK_White",
+"geo": [
+11397,
+6521,
+"0f2741185f040f88bd55e0f8914b341b",
+"dc9845578de62b2d76e41f0073b6d692",
+[
+"rastUVmap"
+]
+]
+},
+"E_MK_Yellow": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_Paint_Yellow"
+],
+"props": "16e745f13451a4f26801707c5225352a",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Markings"
+],
+"data": "E_MK_Yellow",
+"geo": [
+12,
+6,
+"dd037530ed5b52cae81ec890358f9bec",
+"ddd123929d7f6397729607973ac21616",
+[
+"rastUVmap"
+]
+]
+},
+"E_PED_A": {
+"type": "MESH",
+"mw": "4e74ad8bb2d303d7677dd5075ccf5502",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete"
+],
+"props": "19b947250081cab983361743430176dd",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_PED_A",
+"geo": [
+138,
+82,
+"ad27b284ac482a83bc1bebdd60b0ca6a",
+"fc3dacde99ead984fa05497299642005",
+[]
+]
+},
+"E_PED_B": {
+"type": "MESH",
+"mw": "614fd5ac49fd26e320e34ef6924ca8f2",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete"
+],
+"props": "fe20240cf886dd835b4f697925a20965",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_PED_B",
+"geo": [
+206,
+127,
+"0502edd024d2eaaa9b06b855f1943e2a",
+"e08e705db0d4ae9937b3c7a7dc5c8cc9",
+[]
+]
+},
+"E_PED_D": {
+"type": "MESH",
+"mw": "4f79c37ca10f9135aebcf2859be898c0",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete"
+],
+"props": "f4f4fc51a50a1d5332f4f8f477c5c27a",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_PED_D",
+"geo": [
+206,
+127,
+"520fa36cf48ebfef2895dbfe200825f4",
+"040c254194ae67a2666809e24e25dc8e",
+[]
+]
+},
+"E_PED_F": {
+"type": "MESH",
+"mw": "4648747227d018e91a445ca4a3177a05",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete"
+],
+"props": "bf8d9fc6e84eaa182c2dc8542506f8de",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_PED_F",
+"geo": [
+138,
+82,
+"4e2d852389a99540177e96a42f2d0098",
+"e3ead17abea327697844cea3cef390d4",
+[]
+]
+},
+"E_PED_G": {
+"type": "MESH",
+"mw": "72c88c8a9096fe37a06b49e939cfcaa9",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete"
+],
+"props": "41c4974aaa316c2ced23986c5ea8e6d9",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_PED_G",
+"geo": [
+206,
+127,
+"bd421178926c39157eaf362d062f6e24",
+"e08e705db0d4ae9937b3c7a7dc5c8cc9",
+[]
+]
+},
+"E_PED_J": {
+"type": "MESH",
+"mw": "0a9df92d9269d48297e7af93c73b08b1",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete"
+],
+"props": "2df68840444cc69fc55f2cde9c427f8e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals"
+],
+"data": "E_PED_J",
+"geo": [
+206,
+127,
+"e6e1cb08f139d9da461937ca5178952e",
+"e08e705db0d4ae9937b3c7a7dc5c8cc9",
+[]
+]
+},
+"E_RD_Curb": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_Curb"
+],
+"props": "e648e3b712a5656ff69a7f312065cace",
+"mods": "91fd363b93cf4c55124a7c2506b72924",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Roadway"
+],
+"data": "E_RD_Curb",
+"geo": [
+17062,
+10653,
+"c18482ea95315e89eb5c43ea06a42482",
+"e664067e6386bc9794a30fe809b53a70",
+[
+"rastUVmap"
+]
+]
+},
+"E_RD_Pavement": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_P9_ConcretePave"
+],
+"props": "d751713988987e9331980363e24189ce",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Roadway"
+],
+"data": "E_RD_Pavement",
+"geo": [
+3523,
+3534,
+"33ba86f31bf11cb2de2159656b91eac2",
+"335ada437d22a0ed42ac1ee6699ae5ee",
+[
+"paveUV",
+"rastUVmap"
+]
+]
+},
+"E_RD_Roadside": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_Aerial_NAIP"
+],
+"props": "e648e3b712a5656ff69a7f312065cace",
+"mods": "91fd363b93cf4c55124a7c2506b72924",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Roadway"
+],
+"data": "E_RD_Roadside",
+"geo": [
+1513,
+1491,
+"65424853421834d0a7cec3ace8dc467d",
+"b163b760e480087c9f51fd148e38acb9",
+[
+"rastUVmap"
+]
+]
+},
+"E_RD_Sidewalk_assumed": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_Sidewalk"
+],
+"props": "e648e3b712a5656ff69a7f312065cace",
+"mods": "91fd363b93cf4c55124a7c2506b72924",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Roadway"
+],
+"data": "E_RD_Sidewalk_assumed",
+"geo": [
+710,
+687,
+"72e504e48d671c80975b36824bccf641",
+"3cb3fa23d7fedb375b118682a09daaae",
+[
+"rastUVmap"
+]
+]
+},
+"E_SIGN_R3-8_UMS_NB": {
+"type": "MESH",
+"mw": "930d6bdbea6b9acfdbd24e975f337432",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Sign_White",
+"MAT_Sign_Black"
+],
+"props": "2776070aea7cbb62a7de4715196b9869",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals_Remain"
+],
+"data": "E_SIGN_R3-8_UMS_NB",
+"geo": [
+32,
+24,
+"9c7b3a759b95371544dd6ac99abe6a57",
+"62f81f037ace09c75da9e8611e3b49dd",
+[]
+]
+},
+"E_SIGN_R3-8_UMS_SB": {
+"type": "MESH",
+"mw": "55aa58f98b24efe4a5c510b6ed28d62d",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Sign_White",
+"MAT_Sign_Black"
+],
+"props": "022421de2dcc72607b10b3e7d505be8f",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals_Remain"
+],
+"data": "E_SIGN_R3-8_UMS_SB",
+"geo": [
+32,
+24,
+"65e600a05e927e94e945a3807357a79a",
+"62f81f037ace09c75da9e8611e3b49dd",
+[]
+]
+},
+"E_SIGN_R3-8L_CtrMedE": {
+"type": "MESH",
+"mw": "a2b9c1c8a70b69d4e4493e47e39aa5f9",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Sign_White",
+"MAT_Sign_Black"
+],
+"props": "8e3ce30622fdf2051ce60733cb6c18bf",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals_Remain"
+],
+"data": "E_SIGN_R3-8L_CtrMedE",
+"geo": [
+32,
+24,
+"0c266fd98c4d8001e6e0b83c5c8adc38",
+"62f81f037ace09c75da9e8611e3b49dd",
+[]
+]
+},
+"E_SIGN_R3-8L_CtrMedW": {
+"type": "MESH",
+"mw": "989bd057751d26973ed41c087689a694",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Sign_White",
+"MAT_Sign_Black"
+],
+"props": "5d658a1911ab8b4d5d064802df8d654e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals_Remain"
+],
+"data": "E_SIGN_R3-8L_CtrMedW",
+"geo": [
+32,
+24,
+"33fb11f973fe14c8ce79f0af88eb695e",
+"62f81f037ace09c75da9e8611e3b49dd",
+[]
+]
+},
+"E_SIGN_R3-8L_W": {
+"type": "MESH",
+"mw": "a0e745a927cd47cde5fd78c22e51761e",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Sign_White",
+"MAT_Sign_Black"
+],
+"props": "5d658a1911ab8b4d5d064802df8d654e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals_Remain"
+],
+"data": "E_SIGN_R3-8L_W",
+"geo": [
+32,
+24,
+"0c266fd98c4d8001e6e0b83c5c8adc38",
+"62f81f037ace09c75da9e8611e3b49dd",
+[]
+]
+},
+"E_SIGN_R3-8R": {
+"type": "MESH",
+"mw": "cd7845ac77491963fc36a471b80c3a62",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Sign_White",
+"MAT_Sign_Black"
+],
+"props": "0c89e0dab6b28f833481860be33a076e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"E_Signals_Remain"
+],
+"data": "E_SIGN_R3-8R",
+"geo": [
+32,
+24,
+"0c266fd98c4d8001e6e0b83c5c8adc38",
+"62f81f037ace09c75da9e8611e3b49dd",
+[]
+]
+},
+"P_CTRL_U": {
+"type": "MESH",
+"mw": "1bf1631958f99ee27b6bef86f841e9c4",
+"parent": null,
+"mats": [
+"MAT_Cabinet",
+"MAT_Concrete",
+"MAT_GroundBox_Lid"
+],
+"props": "9711104506685266d82de83e1c48a3f7",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_CTRL_U",
+"geo": [
+40,
+30,
+"4b7fb4de07b45ca5a24c19e4dcd4d20a",
+"1691d85a5ac58d28870d96e4f6a981f7",
+[]
+]
+},
+"P_CTRL_U_BBU": {
+"type": "MESH",
+"mw": "54539ea90aae2ecb0859ab49ae423f3d",
+"parent": null,
+"mats": [
+"MAT_Cabinet"
+],
+"props": "a2953fcedd77d742567db8401d80f30c",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_CTRL_U_BBU",
+"geo": [
+16,
+12,
+"72afa1b23103b90f85d145c3a1ceadcc",
+"58bca7f5012669fa3cd84509456ddccb",
+[]
+]
+},
+"P_CUT_00": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [],
+"props": "9d33bfda6b36a741b9a2ec41ab970b9e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+true,
+true,
+false
+],
+"cols": [
+"P_RampCutters"
+],
+"data": "P_CUT_00.001",
+"geo": [
+12,
+8,
+"6910385c37fcfe221cd44b92ee299618",
+"d673d45af034b4544679c1c389bf602b",
+[]
+]
+},
+"P_CUT_01": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [],
+"props": "9d33bfda6b36a741b9a2ec41ab970b9e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+true,
+true,
+false
+],
+"cols": [
+"P_RampCutters"
+],
+"data": "P_CUT_01.001",
+"geo": [
+12,
+8,
+"00b7c4bbca159b643350844a88d65d33",
+"d673d45af034b4544679c1c389bf602b",
+[]
+]
+},
+"P_CUT_02": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [],
+"props": "9d33bfda6b36a741b9a2ec41ab970b9e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+true,
+true,
+false
+],
+"cols": [
+"P_RampCutters"
+],
+"data": "P_CUT_02.001",
+"geo": [
+104,
+54,
+"a76aa83c230af519b05a2147b4d349b8",
+"42f13f0e50af71575d67350590be5c10",
+[]
+]
+},
+"P_CUT_03": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [],
+"props": "9d33bfda6b36a741b9a2ec41ab970b9e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+true,
+true,
+false
+],
+"cols": [
+"P_RampCutters"
+],
+"data": "P_CUT_03.001",
+"geo": [
+114,
+59,
+"3783a4070e2785f7695b5487ab87b513",
+"c0c70eab9c49034cd1b48f42b9b83dc3",
+[]
+]
+},
+"P_CUT_04": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [],
+"props": "9d33bfda6b36a741b9a2ec41ab970b9e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+true,
+true,
+false
+],
+"cols": [
+"P_RampCutters"
+],
+"data": "P_CUT_04.001",
+"geo": [
+8,
+6,
+"2c57ed5e15d4828ab8e3c41b013e339c",
+"6082bc654ad02f2565ae7838a128ca10",
+[]
+]
+},
+"P_CUT_05": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [],
+"props": "9d33bfda6b36a741b9a2ec41ab970b9e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+true,
+true,
+false
+],
+"cols": [
+"P_RampCutters"
+],
+"data": "P_CUT_05.001",
+"geo": [
+8,
+6,
+"04ceec3c52a2bf62bbac7837695af9e4",
+"6082bc654ad02f2565ae7838a128ca10",
+[]
+]
+},
+"P_CUT_06": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [],
+"props": "9d33bfda6b36a741b9a2ec41ab970b9e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+true,
+true,
+false
+],
+"cols": [
+"P_RampCutters"
+],
+"data": "P_CUT_06.001",
+"geo": [
+8,
+6,
+"6c07be043051166d0af9a29661b3be70",
+"6082bc654ad02f2565ae7838a128ca10",
+[]
+]
+},
+"P_CUT_07": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [],
+"props": "9d33bfda6b36a741b9a2ec41ab970b9e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+true,
+true,
+false
+],
+"cols": [
+"P_RampCutters"
+],
+"data": "P_CUT_07.001",
+"geo": [
+8,
+6,
+"4bc01b270dc6b32549864cba53335db8",
+"6082bc654ad02f2565ae7838a128ca10",
+[]
+]
+},
+"P_CUT_08": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [],
+"props": "9d33bfda6b36a741b9a2ec41ab970b9e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+true,
+true,
+false
+],
+"cols": [
+"P_RampCutters"
+],
+"data": "P_CUT_08.001",
+"geo": [
+8,
+6,
+"bbf6489cbcb1fdf1b28c3e3c7fb9ecc2",
+"6082bc654ad02f2565ae7838a128ca10",
+[]
+]
+},
+"P_CUT_09": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [],
+"props": "9d33bfda6b36a741b9a2ec41ab970b9e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+true,
+true,
+false
+],
+"cols": [
+"P_RampCutters"
+],
+"data": "P_CUT_09.001",
+"geo": [
+8,
+6,
+"f07e72e4d88f44d9800bef2774aeeca9",
+"6082bc654ad02f2565ae7838a128ca10",
+[]
+]
+},
+"P_CUT_10": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [],
+"props": "9d33bfda6b36a741b9a2ec41ab970b9e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+true,
+true,
+false
+],
+"cols": [
+"P_RampCutters"
+],
+"data": "P_CUT_10.001",
+"geo": [
+8,
+6,
+"5324f952619e7dc23ad1430e2e45d9a4",
+"6082bc654ad02f2565ae7838a128ca10",
+[]
+]
+},
+"P_CUT_11": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [],
+"props": "9d33bfda6b36a741b9a2ec41ab970b9e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+true,
+true,
+false
+],
+"cols": [
+"P_RampCutters"
+],
+"data": "P_CUT_11.001",
+"geo": [
+8,
+6,
+"00ac0417b1f12a5cb15c6062622d87e1",
+"6082bc654ad02f2565ae7838a128ca10",
+[]
+]
+},
+"P_ELECSVC_V": {
+"type": "MESH",
+"mw": "4d0b549f7abf167b4f83f2df0849f9b4",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Cabinet",
+"MAT_Concrete"
+],
+"props": "dbd2967a762c4add5020542ef51f177a",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_ELECSVC_V",
+"geo": [
+92,
+58,
+"d7896c54effdbb3dbbf8b192a6f16afa",
+"9d41259ca3271bc82be7d06338490eef",
+[]
+]
+},
+"P_HEAD_A_3sec": {
+"type": "MESH",
+"mw": "6c23d25f3b43d0705350209dd8670677",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Retro_Yellow"
+],
+"props": "86fb095dae781afcb1c61cabcd54ccf7",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_HEAD_A_3sec",
+"geo": [
+104,
+53,
+"487536957a41bc5432d3f5bb511645e5",
+"3c84e7bb8cca2cad1b266e7e6bf55f11",
+[]
+]
+},
+"P_HEAD_B_3sec": {
+"type": "MESH",
+"mw": "b643ae88e837957f49d9327ac87165fa",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Retro_Yellow"
+],
+"props": "548c66e2055759097f06fcbef33b7058",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_HEAD_B_3sec",
+"geo": [
+104,
+53,
+"5959169be2d4216d08cbf02c05721394",
+"3c84e7bb8cca2cad1b266e7e6bf55f11",
+[]
+]
+},
+"P_HEAD_C_3sec": {
+"type": "MESH",
+"mw": "8a2ae119bcba3826aa75e24431474853",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Retro_Yellow"
+],
+"props": "df6ef4f2b7712d8b06a3d554c9512825",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_HEAD_C_3sec",
+"geo": [
+104,
+53,
+"9ec271e7a333c891a0c09b429e3cc8c5",
+"3c84e7bb8cca2cad1b266e7e6bf55f11",
+[]
+]
+},
+"P_HEAD_D_5secV": {
+"type": "MESH",
+"mw": "8ff68c9460d6ba32c5ba89cf8d67706a",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Retro_Yellow"
+],
+"props": "7f2b3db423ee66f30b54a87fa5fd0ce0",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_HEAD_D_5secV",
+"geo": [
+170,
+79,
+"8e6c5a57789c4970160269873c9c017c",
+"0cb07db46937efa9b47a045950da9c15",
+[]
+]
+},
+"P_HEAD_E_3sec": {
+"type": "MESH",
+"mw": "419ca437807fc47b3157bfaf8c937b94",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Retro_Yellow"
+],
+"props": "cdba6d2a18f04423193c9e9d85e6012b",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_HEAD_E_3sec",
+"geo": [
+104,
+53,
+"ccad174488cf2b4d3a45a4c370ffb9b6",
+"3c84e7bb8cca2cad1b266e7e6bf55f11",
+[]
+]
+},
+"P_HEAD_F_3sec": {
+"type": "MESH",
+"mw": "251524bd45ae09a4137cc965f74ca372",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Retro_Yellow"
+],
+"props": "7cb94df9ba9832ef534abdf07660d5e0",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_HEAD_F_3sec",
+"geo": [
+104,
+53,
+"9c35c07a8cf3c04a95d46031609aa0e1",
+"3c84e7bb8cca2cad1b266e7e6bf55f11",
+[]
+]
+},
+"P_HEAD_G_3sec": {
+"type": "MESH",
+"mw": "fba082c15228bdc0597158be000fc49b",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Retro_Yellow"
+],
+"props": "1d89008490c75d10f2c3c00bba114398",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_HEAD_G_3sec",
+"geo": [
+104,
+53,
+"07b65ea9a00f171b735002d002650d27",
+"3c84e7bb8cca2cad1b266e7e6bf55f11",
+[]
+]
+},
+"P_HEAD_H_4sec": {
+"type": "MESH",
+"mw": "4121a1d51e6464855369accecd752747",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Retro_Yellow"
+],
+"props": "565a28c6396e0f3661a7584a575e4276",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_HEAD_H_4sec.003",
+"geo": [
+152,
+68,
+"d576818055f4a648daa60dc4084fdd01",
+"c60c0dc22f1a7033b35dde4819f68faf",
+[]
+]
+},
+"P_HEAD_I_3sec": {
+"type": "MESH",
+"mw": "c4f1230dc7663a678a28bbadfd0fa95c",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Retro_Yellow"
+],
+"props": "fbaaa390ff565bd313c8fec719bad718",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_HEAD_I_3sec",
+"geo": [
+104,
+53,
+"6fbba22b8281d8f7b32bd2f27c160766",
+"3c84e7bb8cca2cad1b266e7e6bf55f11",
+[]
+]
+},
+"P_HEAD_J_3sec": {
+"type": "MESH",
+"mw": "8233a34d3d43c3325b8586d695f28bca",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Retro_Yellow"
+],
+"props": "9bb2f9355807dd2b69c557d0844397b7",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_HEAD_J_3sec",
+"geo": [
+104,
+53,
+"45e6cc475dc4bca7e26346d40e648b3e",
+"3c84e7bb8cca2cad1b266e7e6bf55f11",
+[]
+]
+},
+"P_HEAD_K_3sec": {
+"type": "MESH",
+"mw": "0f66d8d1c9cffd057171e40d45b8b0f7",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Retro_Yellow"
+],
+"props": "ee3bf8ef857ccab34ff7109817d63e6e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_HEAD_K_3sec",
+"geo": [
+104,
+53,
+"9e1b451bd4da44d3582088ee3f62064e",
+"3c84e7bb8cca2cad1b266e7e6bf55f11",
+[]
+]
+},
+"P_HEAD_L_3sec": {
+"type": "MESH",
+"mw": "0e1642a8df7ba5c7d62f1a49dac9946e",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Retro_Yellow"
+],
+"props": "6ab9ea039a6db21d4df81ce1bbcedead",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_HEAD_L_3sec",
+"geo": [
+104,
+53,
+"62fe5c758371b5f487b5e8df40b2ad38",
+"3c84e7bb8cca2cad1b266e7e6bf55f11",
+[]
+]
+},
+"P_HEAD_M_3sec": {
+"type": "MESH",
+"mw": "51ac63527ae936dfd80f260485d4ac43",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Retro_Yellow"
+],
+"props": "2b573a54eff90a9116f614a1fa2bd706",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_HEAD_M_3sec",
+"geo": [
+104,
+53,
+"48ca4bde9d62fc7b8f28baed357e5b8c",
+"3c84e7bb8cca2cad1b266e7e6bf55f11",
+[]
+]
+},
+"P_HEAD_N_5secV": {
+"type": "MESH",
+"mw": "d9a68ad5b7c67ddd4eba823191fd2aba",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Retro_Yellow"
+],
+"props": "446d18a6b6e65b01c6b010609723cf33",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_HEAD_N_5secV",
+"geo": [
+170,
+79,
+"c5731c936a165a0675fe62ae55bbb125",
+"0cb07db46937efa9b47a045950da9c15",
+[]
+]
+},
+"P_HEAD_O_3sec": {
+"type": "MESH",
+"mw": "3a202b4478caaaa2442e02c1849e51f0",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Retro_Yellow"
+],
+"props": "ae68fcdb0b710ae09f84d4ad9a287911",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_HEAD_O_3sec",
+"geo": [
+104,
+53,
+"4cf23df773b6e8698930924a1164df16",
+"3c84e7bb8cca2cad1b266e7e6bf55f11",
+[]
+]
+},
+"P_HEAD_P_3sec": {
+"type": "MESH",
+"mw": "ba6441ee96d9540da58d4c7785fb1a56",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Retro_Yellow"
+],
+"props": "5cdf3b811c8fd2927f886bd0a406e420",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_HEAD_P_3sec",
+"geo": [
+104,
+53,
+"14e8e9bb70c3aadcdfdcb263929f9238",
+"3c84e7bb8cca2cad1b266e7e6bf55f11",
+[]
+]
+},
+"P_HEAD_Q_3sec": {
+"type": "MESH",
+"mw": "2fa677728c0acdc52ac5cb251f55906c",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Retro_Yellow"
+],
+"props": "26ed728498a39b862f019ac4c2c52ba9",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_HEAD_Q_3sec",
+"geo": [
+104,
+53,
+"2b4ce1dd0d89e184fbb76febf2143bb5",
+"3c84e7bb8cca2cad1b266e7e6bf55f11",
+[]
+]
+},
+"P_HEAD_R_4sec": {
+"type": "MESH",
+"mw": "6fc1809790afe3cf009f36fe0b08a8c9",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Retro_Yellow"
+],
+"props": "41cca98ec3a11240e51aacc69f053b24",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_HEAD_R_4sec.003",
+"geo": [
+152,
+68,
+"b8f8e0607a36000132bb753b1e7bce66",
+"c60c0dc22f1a7033b35dde4819f68faf",
+[]
+]
+},
+"P_HEAD_S_3sec": {
+"type": "MESH",
+"mw": "1c36c0c6dc7fabaf76fbc7510b65c40e",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Retro_Yellow"
+],
+"props": "ecb0f41da4aaae09738fc2f8d345aae2",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_HEAD_S_3sec",
+"geo": [
+104,
+53,
+"b62e1cd935d27aa0e117c81bb9bc44f3",
+"3c84e7bb8cca2cad1b266e7e6bf55f11",
+[]
+]
+},
+"P_HEAD_T_3sec": {
+"type": "MESH",
+"mw": "becfd53872ce5841e91d436334bc5b76",
+"parent": null,
+"mats": [
+"MAT_SigHead_Black",
+"MAT_Lens_Red",
+"MAT_Lens_Yellow",
+"MAT_Lens_Green",
+"MAT_Retro_Yellow"
+],
+"props": "9792852153498f975d8944963b70506c",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_HEAD_T_3sec",
+"geo": [
+104,
+53,
+"0c195eb0067daad3c63461483dd3a01d",
+"3c84e7bb8cca2cad1b266e7e6bf55f11",
+[]
+]
+},
+"P_MA_A_55ft": {
+"type": "MESH",
+"mw": "b226c5dff81bc16434add6a0d53cb131",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Concrete",
+"MAT_Lum_Lens"
+],
+"props": "f3739abccab8a142556dfa81231c5f1a",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_MA_A_55ft",
+"geo": [
+168,
+95,
+"ad3b70a62c6212518b1fd166c1f0a4cf",
+"efa1ce70e7150bc7202609cc25091ffa",
+[]
+]
+},
+"P_MA_B_55ft": {
+"type": "MESH",
+"mw": "2ca68f898664aba12a51f9ecc6977264",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Concrete",
+"MAT_Lum_Lens"
+],
+"props": "1c167dfdec667722addb02b7ef23756f",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_MA_B_55ft",
+"geo": [
+168,
+95,
+"8eae6653b95aa39c23cbf668ec3f21d3",
+"efa1ce70e7150bc7202609cc25091ffa",
+[]
+]
+},
+"P_MA_C_55ft": {
+"type": "MESH",
+"mw": "b7cd8448eae7ddc41d21c8bbaff6c095",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Concrete",
+"MAT_Lum_Lens"
+],
+"props": "805c62bbc33ba217fc16fd7cba8b1229",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_MA_C_55ft",
+"geo": [
+168,
+95,
+"51ed753a21fe5c2bfa640e78155fcea1",
+"efa1ce70e7150bc7202609cc25091ffa",
+[]
+]
+},
+"P_MA_K_55ft": {
+"type": "MESH",
+"mw": "0d30e2260c930cf515fa9851ab47afe0",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Concrete",
+"MAT_Lum_Lens"
+],
+"props": "05ff229bc419daffaac31d271cd3bd1d",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_MA_K_55ft",
+"geo": [
+168,
+95,
+"47e461a9ba0732a0d3376ff654f3ac80",
+"efa1ce70e7150bc7202609cc25091ffa",
+[]
+]
+},
+"P_MA_L_60ft": {
+"type": "MESH",
+"mw": "57a6bb601318d1a0eb91bef18c61d52f",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Concrete",
+"MAT_Lum_Lens"
+],
+"props": "4bfd5043b0653d0512ac66ff3ac5ae7e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_MA_L_60ft",
+"geo": [
+168,
+95,
+"b6e5637372dfcd41e7a15cd6ebbd2044",
+"efa1ce70e7150bc7202609cc25091ffa",
+[]
+]
+},
+"P_MA_M_55ft": {
+"type": "MESH",
+"mw": "698b038504f8c962107000ebaa786de8",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Concrete",
+"MAT_Lum_Lens"
+],
+"props": "6b90907c525c483c4140b4d13c36eb19",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_MA_M_55ft",
+"geo": [
+168,
+95,
+"3abc0225436b9b628d8de2e183aa687c",
+"efa1ce70e7150bc7202609cc25091ffa",
+[]
+]
+},
+"P_MK_RPM": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_RPM_White"
+],
+"props": "4d6f0179de4568c0ef0c18351a98de0a",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Markings"
+],
+"data": "P_MK_RPM.001",
+"geo": [
+1032,
+774,
+"5458b59188891e6a5c714439c9fd8d6a",
+"9bc99d129c271d6c2226d01a792f5fde",
+[]
+]
+},
+"P_MK_White": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_Paint_White"
+],
+"props": "d9fccb7a29b40bca89a910d50802cdb2",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Markings"
+],
+"data": "P_MK_White.001",
+"geo": [
+11945,
+6567,
+"9def7ce92b879215b8a8df908ac451a9",
+"fcc677d5a31497cd66a9cb648a836fd1",
+[
+"rastUVmap"
+]
+]
+},
+"P_MK_Yellow": {
+"type": "MESH",
+"mw": "c3ba16303acfd7bf122b1db1cbb94bb6",
+"parent": null,
+"mats": [
+"MAT_Paint_Yellow"
+],
+"props": "534a294d704c0e387b46418bf85842fb",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Markings"
+],
+"data": "P_MK_Yellow.001",
+"geo": [
+16,
+8,
+"ae346d7cce4b39fb96863d6b265b519c",
+"e44e1a78b47d6e297d0861224ce5d3cf",
+[
+"rastUVmap"
+]
+]
+},
+"P_PED_D": {
+"type": "MESH",
+"mw": "abee8ba2e97babbc289735d89e54b42e",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete"
+],
+"props": "f207d89567abab5df755ace71a74a033",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_PED_D",
+"geo": [
+138,
+82,
+"eff79890c3245817077762961c3268ce",
+"b2ec3e88accc98f1a70362297605466f",
+[]
+]
+},
+"P_PED_E": {
+"type": "MESH",
+"mw": "e88237bbe6c073453c1a7ffc86360cd7",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete"
+],
+"props": "af6789c7cec2cea63676994d7e47a85e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_PED_E",
+"geo": [
+138,
+82,
+"46c752093c6de1611abd6abff161244c",
+"b2ec3e88accc98f1a70362297605466f",
+[]
+]
+},
+"P_PED_F": {
+"type": "MESH",
+"mw": "be1d37f880b3bcff938c61f2a5515a5e",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete"
+],
+"props": "5f78768ef2897d8bcfac93070bb794d9",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_PED_F",
+"geo": [
+138,
+82,
+"2740ddb659db6160c789fd84c0a004ad",
+"b2ec3e88accc98f1a70362297605466f",
+[]
+]
+},
+"P_PED_G": {
+"type": "MESH",
+"mw": "5a80a38e1a4351287742cedd1c3f61a0",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete"
+],
+"props": "90c3da9c5638747b4d6427718c91b8d0",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_PED_G",
+"geo": [
+174,
+108,
+"69e3753b9d5cf664304dcc4bcf78b6fe",
+"3744caa53703b4703e78aabf6824a70e",
+[]
+]
+},
+"P_PED_H": {
+"type": "MESH",
+"mw": "1403789be1b87e9a1e1dce0b0c743377",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete"
+],
+"props": "91a09ce40ad942dd039598307f751f82",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_PED_H",
+"geo": [
+138,
+82,
+"97c1962350b4a3b43e232fb83bc47fa6",
+"b2ec3e88accc98f1a70362297605466f",
+[]
+]
+},
+"P_PED_I": {
+"type": "MESH",
+"mw": "df62a7195c22679187a7658e7bd9ef32",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete"
+],
+"props": "6c4c028044ec9a20a4ed72d2679d57ae",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_PED_I",
+"geo": [
+138,
+82,
+"51051c797972e5b100fdf1f16cd8dfa7",
+"b2ec3e88accc98f1a70362297605466f",
+[]
+]
+},
+"P_PED_J": {
+"type": "MESH",
+"mw": "d1acbc4386767b1a06c296349a8e094e",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete"
+],
+"props": "fbe438173f3b50bcfb2063d8b3d2b7a7",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_PED_J",
+"geo": [
+138,
+82,
+"8800b9811be68db0ad3324d477333590",
+"b2ec3e88accc98f1a70362297605466f",
+[]
+]
+},
+"P_PED_N": {
+"type": "MESH",
+"mw": "d4c2777d1c3f4bda0c3582c4d14225b1",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete"
+],
+"props": "b3255917b05a1f189e7f21b2866d1258",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_PED_N",
+"geo": [
+138,
+82,
+"e6d1366cf4f4303af0fb276326a9af8d",
+"b2ec3e88accc98f1a70362297605466f",
+[]
+]
+},
+"P_PED_O": {
+"type": "MESH",
+"mw": "cb0026b09adb42e73f0989dd47821152",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete"
+],
+"props": "764268c6d89d3aa34e07c00db92e7b1f",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_PED_O",
+"geo": [
+138,
+82,
+"b0667e967d8185cecdb136813ae66dc4",
+"b2ec3e88accc98f1a70362297605466f",
+[]
+]
+},
+"P_PED_P": {
+"type": "MESH",
+"mw": "9dfbe749f5f1de81f8ef9ae4bbdc2d3a",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete"
+],
+"props": "6f9d6403e0be0360ed1090faf66a16b7",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_PED_P",
+"geo": [
+138,
+82,
+"f40fa790c0788a9913b7f1f1f26b5e7f",
+"b2ec3e88accc98f1a70362297605466f",
+[]
+]
+},
+"P_PED_Q": {
+"type": "MESH",
+"mw": "d6560cfee923953bee8b807db71bda6a",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete"
+],
+"props": "e9f88530f0fe51dc947e6a69ec7f79f5",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_PED_Q",
+"geo": [
+174,
+108,
+"ee17c402b820ada1801934c9c4f8a6ed",
+"3744caa53703b4703e78aabf6824a70e",
+[]
+]
+},
+"P_PED_R": {
+"type": "MESH",
+"mw": "75a9e2ab41deb4a4b4434bfbc1d96870",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete"
+],
+"props": "970a57df120bcf5a5d82fd1258278ad0",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_PED_R",
+"geo": [
+138,
+82,
+"665f3622fcc7fb1059e10c2b0bf85380",
+"b2ec3e88accc98f1a70362297605466f",
+[]
+]
+},
+"P_PED_S": {
+"type": "MESH",
+"mw": "e61129c1c7abbd56dec581a456dea0c1",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete"
+],
+"props": "047a2b2e4c30e5e6261f8d6ca3bbcbc3",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_PED_S",
+"geo": [
+138,
+82,
+"7348b1d8d5f6adc407f5e42c4ff4e598",
+"b2ec3e88accc98f1a70362297605466f",
+[]
+]
+},
+"P_PED_T": {
+"type": "MESH",
+"mw": "06660ef9dc9979d6a5d4559ebc7fb4c0",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_SigHead_Black",
+"MAT_Lens_Yellow",
+"MAT_PedLens",
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Concrete"
+],
+"props": "711a0e20fce9488a4cf441a6d5cbab9e",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_PED_T",
+"geo": [
+138,
+82,
+"5c0c0be12ca48e8ca22efb9ffc7b1769",
+"b2ec3e88accc98f1a70362297605466f",
+[]
+]
+},
+"P_RADAR_ADV1": {
+"type": "MESH",
+"mw": "a28eafb5429ac8e9bfef0b47578a1aea",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Cabinet",
+"MAT_Radar"
+],
+"props": "28a39c6100f56aa61df227e12065a6dc",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_RADAR_ADV1",
+"geo": [
+36,
+26,
+"a7d9d0d7e8472838154085157643a59a",
+"bf96916aa5432a557b901cf9a83ea8f1",
+[]
+]
+},
+"P_RADAR_ADV2": {
+"type": "MESH",
+"mw": "5ddc9f07ccd940c4d6f7b00ce9ffce29",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Cabinet",
+"MAT_Radar"
+],
+"props": "0567ff66627a8809163f8db51bf659fa",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_RADAR_ADV2",
+"geo": [
+36,
+26,
+"8fd3b1b34f6e51393c3577829bc0533e",
+"bf96916aa5432a557b901cf9a83ea8f1",
+[]
+]
+},
+"P_RADAR_ADV3": {
+"type": "MESH",
+"mw": "6afde97c7dc78e2d06228cca743dcb81",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Cabinet",
+"MAT_Radar"
+],
+"props": "d208895b0cd3383e6e13bb7e32e8bcf7",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_RADAR_ADV3",
+"geo": [
+36,
+26,
+"788806e13550cff59bc566a742f2b680",
+"bf96916aa5432a557b901cf9a83ea8f1",
+[]
+]
+},
+"P_RADAR_ADV4": {
+"type": "MESH",
+"mw": "2b4099da9c6ccfb7083457a0034b35c8",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Cabinet",
+"MAT_Radar"
+],
+"props": "1f1f6a8ef3ce5a91d61707e1cb90425f",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_RADAR_ADV4",
+"geo": [
+36,
+26,
+"ba45f4fb8458d6d4c71b745a52ddc7df",
+"bf96916aa5432a557b901cf9a83ea8f1",
+[]
+]
+},
+"P_RADAR_PR1": {
+"type": "MESH",
+"mw": "b01d8579c4ff85e1540f61d34cbd7489",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Cabinet",
+"MAT_Radar"
+],
+"props": "4a3587a11f5b3e091c695bf8c8fb78ec",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_RADAR_PR1",
+"geo": [
+36,
+26,
+"d7585c2a40c9a6cea75894e931074f92",
+"bf96916aa5432a557b901cf9a83ea8f1",
+[]
+]
+},
+"P_RADAR_PR2": {
+"type": "MESH",
+"mw": "1201d68a923916c79ad28ec1537c9a02",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Cabinet",
+"MAT_Radar"
+],
+"props": "389658c9ff33a1984d6dfcf282646754",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_RADAR_PR2",
+"geo": [
+36,
+26,
+"06c9a01cb5167bc7754ec5a96ad9f1e2",
+"bf96916aa5432a557b901cf9a83ea8f1",
+[]
+]
+},
+"P_RADAR_PR3": {
+"type": "MESH",
+"mw": "c4a2ef3ce70f21a2ef225c9ae90b6f2e",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Cabinet",
+"MAT_Radar"
+],
+"props": "23e005c6362970f1856b9fe9217732cf",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_RADAR_PR3",
+"geo": [
+36,
+26,
+"965ee607e02ff04d93ef7c02ca1e0e34",
+"bf96916aa5432a557b901cf9a83ea8f1",
+[]
+]
+},
+"P_RADAR_PR4": {
+"type": "MESH",
+"mw": "bf1e93bcaee9aab06a817d268ef26a72",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Cabinet",
+"MAT_Radar"
+],
+"props": "fdc0dbfecd14537d4c7362ac34066413",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_RADAR_PR4",
+"geo": [
+36,
+26,
+"50be209d4b0d0127189436c34dfcc8bb",
+"bf96916aa5432a557b901cf9a83ea8f1",
+[]
+]
+},
+"P_RADAR_PR5": {
+"type": "MESH",
+"mw": "373862169dc6af78c4042bb1432673f3",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Cabinet",
+"MAT_Radar"
+],
+"props": "1794758fc62944714e941d0f1c36fd42",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_RADAR_PR5",
+"geo": [
+36,
+26,
+"175eb726132d499ce746d905adbeeb49",
+"bf96916aa5432a557b901cf9a83ea8f1",
+[]
+]
+},
+"P_RADAR_PR6": {
+"type": "MESH",
+"mw": "bdbf7addb6c19f8e712fa662d0f8dc34",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Cabinet",
+"MAT_Radar"
+],
+"props": "813c1159e8c3ccc4fd4385f926927ead",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_RADAR_PR6",
+"geo": [
+36,
+26,
+"dd6fb35ec27db8231e489ab1c114ca59",
+"bf96916aa5432a557b901cf9a83ea8f1",
+[]
+]
+},
+"P_RAMP_T1_0": {
+"type": "MESH",
+"mw": "2bbc9c87204f777314509e33ba553a94",
+"parent": null,
+"mats": [
+"MAT_Concrete",
+"MAT_DetectWarn"
+],
+"props": "c7fcb071e30bf9aaee9b133162900c71",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Ramps"
+],
+"data": "P_RAMP_T1_0.001",
+"geo": [
+28,
+10,
+"7c2e966e8787e859f72384ed36384220",
+"c4944e2ca2ccd6c731d60668abcf7741",
+[]
+]
+},
+"P_RAMP_T1_11": {
+"type": "MESH",
+"mw": "f38dfda9962934d4ac5babb5bff70a0d",
+"parent": null,
+"mats": [
+"MAT_Concrete",
+"MAT_DetectWarn"
+],
+"props": "c61c30089e97fba9de4dac81f4b28baa",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Ramps"
+],
+"data": "P_RAMP_T1_11.001",
+"geo": [
+28,
+10,
+"7cd7703bc0f7f1818906467e9cd53397",
+"c4944e2ca2ccd6c731d60668abcf7741",
+[]
+]
+},
+"P_RAMP_T1_12": {
+"type": "MESH",
+"mw": "8dc4f9ef124a1fbdbe793df36b5fa06c",
+"parent": null,
+"mats": [
+"MAT_Concrete",
+"MAT_DetectWarn"
+],
+"props": "ca8b7c05735af6ea102b4e74baaae042",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Ramps"
+],
+"data": "P_RAMP_T1_12.001",
+"geo": [
+28,
+10,
+"899baf25e3e938bfc9908483e5803757",
+"18321240f56ab77280dcc3b08c59e0b7",
+[]
+]
+},
+"P_RAMP_T1_13": {
+"type": "MESH",
+"mw": "de44aed0b487237164c29511e1416e10",
+"parent": null,
+"mats": [
+"MAT_Concrete",
+"MAT_DetectWarn"
+],
+"props": "f655cdf25ced9a6c73e4b16e20d43ee9",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Ramps"
+],
+"data": "P_RAMP_T1_13.001",
+"geo": [
+28,
+10,
+"a40044495f4032c262aec5eccd684a2b",
+"18321240f56ab77280dcc3b08c59e0b7",
+[]
+]
+},
+"P_RAMP_T1_2": {
+"type": "MESH",
+"mw": "1ce8c84993a6c623ec92f811879397ef",
+"parent": null,
+"mats": [
+"MAT_Concrete",
+"MAT_DetectWarn"
+],
+"props": "a675d8e4a15f5981267152bc6a28b1b7",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Ramps"
+],
+"data": "P_RAMP_T1_2.001",
+"geo": [
+36,
+13,
+"20ae98991e7f62317f22305651bb3a0f",
+"7bfc0895d628015c7ce6dc64a819b945",
+[]
+]
+},
+"P_RAMP_T1_3": {
+"type": "MESH",
+"mw": "f4887dc09992be1b77545e3a7161519e",
+"parent": null,
+"mats": [
+"MAT_Concrete",
+"MAT_DetectWarn"
+],
+"props": "df7e0d39b719058bfc9eead3abc36e91",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Ramps"
+],
+"data": "P_RAMP_T1_3.001",
+"geo": [
+28,
+10,
+"55ba06dc75cb26ff06aef5a0a4f83b75",
+"c4944e2ca2ccd6c731d60668abcf7741",
+[]
+]
+},
+"P_RAMP_T21_16_18": {
+"type": "MESH",
+"mw": "9de3f1b63ee67c357d997662e6297bc5",
+"parent": null,
+"mats": [
+"MAT_Concrete",
+"MAT_DetectWarn"
+],
+"props": "0529387ced0f63113ccd4c82b9b04093",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Ramps"
+],
+"data": "P_RAMP_T21_16_18.001",
+"geo": [
+38,
+14,
+"8d9f160112907c6096d9c539484dac9e",
+"23982aedbedc28ec8c9ca07e8307cdb6",
+[]
+]
+},
+"P_RAMP_T21_6_7": {
+"type": "MESH",
+"mw": "b6afde49a2809b766ecc3ab91c3f09a9",
+"parent": null,
+"mats": [
+"MAT_Concrete",
+"MAT_DetectWarn"
+],
+"props": "03c2458963221e764154cfc10b48de39",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Ramps"
+],
+"data": "P_RAMP_T21_6_7.001",
+"geo": [
+38,
+14,
+"6252e588b6999e2f0284abd0a32f9008",
+"23982aedbedc28ec8c9ca07e8307cdb6",
+[]
+]
+},
+"P_RAMP_T22_10_14_15": {
+"type": "MESH",
+"mw": "54e9af3d34621dc9435defb0a43e333d",
+"parent": null,
+"mats": [
+"MAT_Concrete",
+"MAT_DetectWarn"
+],
+"props": "24a1d4037774aacd92122c9324c65569",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Ramps"
+],
+"data": "P_RAMP_T22_10_14_15.001",
+"geo": [
+69,
+28,
+"5a908ed06415b8bf0aa0fee319111532",
+"97a6abe3531baf597a8adf779beea527",
+[]
+]
+},
+"P_RAMP_T22_1_4_5": {
+"type": "MESH",
+"mw": "01d8e1a451c88ce8fa937efa95caa9b7",
+"parent": null,
+"mats": [
+"MAT_Concrete",
+"MAT_DetectWarn"
+],
+"props": "6a8021fc5e596dbc9906c2f1af102bd8",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Ramps"
+],
+"data": "P_RAMP_T22_1_4_5.001",
+"geo": [
+65,
+27,
+"8851e31ee8061ff5df764e37aeffd635",
+"990a403b86558282e55b6ef23a2326ac",
+[]
+]
+},
+"P_RAMP_T5_17": {
+"type": "MESH",
+"mw": "97b2e9f8476846423f1023abefd54ea4",
+"parent": null,
+"mats": [
+"MAT_Concrete",
+"MAT_DetectWarn"
+],
+"props": "5006a37bdbdf61073ad5bfcfea99a8cb",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Ramps"
+],
+"data": "P_RAMP_T5_17.001",
+"geo": [
+28,
+10,
+"cc203fa5085a84a18a2620f082462af7",
+"c4944e2ca2ccd6c731d60668abcf7741",
+[]
+]
+},
+"P_RAMP_T5_8": {
+"type": "MESH",
+"mw": "4d7f1ed2ebf1aa269eb04bf9f9a33e30",
+"parent": null,
+"mats": [
+"MAT_Concrete",
+"MAT_DetectWarn"
+],
+"props": "1336a30baa20daccfd1f07d05d7dcabf",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Ramps"
+],
+"data": "P_RAMP_T5_8.001",
+"geo": [
+28,
+10,
+"b3e024b974aaa6246b862ba63bc5b11b",
+"18321240f56ab77280dcc3b08c59e0b7",
+[]
+]
+},
+"P_RAMP_T5_9": {
+"type": "MESH",
+"mw": "6c92cc94220dda985dbe498771ee159e",
+"parent": null,
+"mats": [
+"MAT_Concrete",
+"MAT_DetectWarn"
+],
+"props": "1336a30baa20daccfd1f07d05d7dcabf",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Ramps"
+],
+"data": "P_RAMP_T5_9.001",
+"geo": [
+28,
+10,
+"1e8d309f9c31368f898f3a9b9ededb3c",
+"18321240f56ab77280dcc3b08c59e0b7",
+[]
+]
+},
+"P_SIGN_S1_B": {
+"type": "MESH",
+"mw": "6cda222f089bc4210cb270f678150cc2",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Sign_Green",
+"MAT_Sign_White",
+"MAT_Sign_Black"
+],
+"props": "51aeafc2d22e877e18d6223ce219bfab",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_SIGN_S1_B",
+"geo": [
+1434,
+1406,
+"7f755ac11008890de83f74c59d8ec578",
+"7fc46017803df865bd8f48912d0ca228",
+[
+"UVMap"
+]
+]
+},
+"P_SIGN_S1_L": {
+"type": "MESH",
+"mw": "bdbf336b2b3a298f6efedb8af831ae9a",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Sign_Green",
+"MAT_Sign_White",
+"MAT_Sign_Black"
+],
+"props": "06d6c21a628ca518b219601c71eb4fbd",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_SIGN_S1_L",
+"geo": [
+1434,
+1406,
+"bfae29fcae2f8140a412313137472542",
+"7fc46017803df865bd8f48912d0ca228",
+[
+"UVMap"
+]
+]
+},
+"P_SIGN_S2_A": {
+"type": "MESH",
+"mw": "050f0a6a5f5dd8b07ee142e2908a95fb",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Sign_Green",
+"MAT_Sign_White",
+"MAT_Sign_Black"
+],
+"props": "42ac9ad36548e4164df8c91926beb926",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_SIGN_S2_A",
+"geo": [
+407,
+391,
+"6718df9633b67dcf23a79d83980452f4",
+"12a9c567774d6299b105694a40c9ea98",
+[
+"UVMap"
+]
+]
+},
+"P_SIGN_S2_C": {
+"type": "MESH",
+"mw": "75a7960177e6d6d1d720820ff7576289",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Sign_Green",
+"MAT_Sign_White",
+"MAT_Sign_Black"
+],
+"props": "9019fc0cf196920047d756ae0441028d",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_SIGN_S2_C",
+"geo": [
+407,
+391,
+"337cbda2e984b2f83e4bdf758a64db07",
+"12a9c567774d6299b105694a40c9ea98",
+[
+"UVMap"
+]
+]
+},
+"P_SIGN_S2_K": {
+"type": "MESH",
+"mw": "a97539e599b5d5bccd4234cc75bc20c6",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Sign_Green",
+"MAT_Sign_White",
+"MAT_Sign_Black"
+],
+"props": "bfe81df380295cb8a1fbcd0caeca4dcb",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_SIGN_S2_K",
+"geo": [
+407,
+391,
+"f082cb75ebf0db0a80278f2a213698c4",
+"12a9c567774d6299b105694a40c9ea98",
+[
+"UVMap"
+]
+]
+},
+"P_SIGN_S2_M": {
+"type": "MESH",
+"mw": "9215512b36c5d1ebedd3297e0dc8b461",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Sign_Green",
+"MAT_Sign_White",
+"MAT_Sign_Black"
+],
+"props": "5cf74eda6d998e03466925f4e6b06ca6",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_SIGN_S2_M",
+"geo": [
+407,
+391,
+"5210e472f5837f431a6dab3c0a56df51",
+"12a9c567774d6299b105694a40c9ea98",
+[
+"UVMap"
+]
+]
+},
+"P_SIGN_S3_A_R6-1L": {
+"type": "MESH",
+"mw": "b55be4c5b120400b0b1102f53571813f",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Sign_White",
+"MAT_Sign_Black"
+],
+"props": "755bb9a79bce5e056b13ece47742dd48",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_SIGN_S3_A_R6-1L",
+"geo": [
+190,
+170,
+"e3e8f5dd17fee9dcab8cbad49b682867",
+"1a46111f7ce9dd9bd78c885802883231",
+[
+"UVMap"
+]
+]
+},
+"P_SIGN_S3_K_R6-1L": {
+"type": "MESH",
+"mw": "848906e535c934c9d1033322f351972f",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Sign_White",
+"MAT_Sign_Black"
+],
+"props": "c8826c0e240a9f11791bfa5ca0b50c7c",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_SIGN_S3_K_R6-1L",
+"geo": [
+190,
+170,
+"d225a78da96001f8f666db08cb4f72be",
+"1a46111f7ce9dd9bd78c885802883231",
+[
+"UVMap"
+]
+]
+},
+"P_SIGN_S4_C_R6-1R": {
+"type": "MESH",
+"mw": "bbc4a13185a42eab7cad9983c42f04fc",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Sign_White",
+"MAT_Sign_Black"
+],
+"props": "77f6f8ed9bbe981e1e7b5e146505b073",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_SIGN_S4_C_R6-1R",
+"geo": [
+190,
+170,
+"361c6222b761e3c093aec6f3172d48e7",
+"1a46111f7ce9dd9bd78c885802883231",
+[
+"UVMap"
+]
+]
+},
+"P_SIGN_S4_M_R6-1R": {
+"type": "MESH",
+"mw": "9913e06566ef8be511c1e611aa36a563",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Sign_White",
+"MAT_Sign_Black"
+],
+"props": "62691513c08fe6554d6cc6f4a572afe3",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_SIGN_S4_M_R6-1R",
+"geo": [
+190,
+170,
+"b7be81e611e9f71baef0374095192ca4",
+"1a46111f7ce9dd9bd78c885802883231",
+[
+"UVMap"
+]
+]
+},
+"P_SIGN_S5_R3-8L": {
+"type": "MESH",
+"mw": "778e598935dd6f1c1c02e29744a645e0",
+"parent": null,
+"mats": [
+"MAT_SigPole_Galv",
+"MAT_Sign_White",
+"MAT_Sign_Black"
+],
+"props": "f98a74d1ab66e7d207d961fccb9c0a9b",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signals"
+],
+"data": "P_SIGN_S5_R3-8L",
+"geo": [
+202,
+172,
+"f49ae2607f13c6cf051dbf50f351a381",
+"25775ec9983a182f7da5c847eeef8a5b",
+[
+"UVMap"
+]
+]
+},
+"P_SIGN_S6_R1-5BL_NB": {
+"type": "MESH",
+"mw": "9f22f02e7275dbb1991bbc0fb89279d5",
+"parent": null,
+"mats": [
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Sign_Red",
+"MAT_SigPole_Galv"
+],
+"props": "17b8536e1c792893dcba9e53ba4d3067",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signs"
+],
+"data": "P_SIGN_S6_R1-5BL_NB.001",
+"geo": [
+695,
+651,
+"e007841bcf30c571bd3c45e18d778a44",
+"efade4cfb7df07e0b7f0f7f122d9a52b",
+[
+"UVMap"
+]
+]
+},
+"P_SIGN_S6_R1-5BL_SB": {
+"type": "MESH",
+"mw": "25f851c157e099fd27f0d603e65ee142",
+"parent": null,
+"mats": [
+"MAT_Sign_White",
+"MAT_Sign_Black",
+"MAT_Sign_Red",
+"MAT_SigPole_Galv"
+],
+"props": "f5dc6fdbad7d4175297e5f7ad44be06c",
+"mods": "d751713988987e9331980363e24189ce",
+"vis": [
+false,
+false,
+false,
+false
+],
+"cols": [
+"P_Signs"
+],
+"data": "P_SIGN_S6_R1-5BL_SB.001",
+"geo": [
+695,
+651,
+"bc334d6b79175288c0173f914a6a6fde",
+"efade4cfb7df07e0b7f0f7f122d9a52b",
+[
+"UVMap"
+]
+]
+}
+},
+"materials": {
+"MAT_Aerial_NAIP": [
+"0b0c62bac17cb0fc3a2328718e397578",
+[
+0.8,
+0.8,
+0.8,
+1.0
+]
+],
+"MAT_Asphalt": [
+"dfc77a43026b43e63f944e6eb969bd99",
+[
+0.05,
+0.05,
+0.055,
+1.0
+]
+],
+"MAT_Backdrop": [
+"bafdf7ab27269c491767966744508f4b",
+[
+0.8,
+0.8,
+0.8,
+1.0
+]
+],
+"MAT_Bridge_Concrete": [
+"96ccdd4c78d393a453ff1b6a98b8abea",
+[
+0.55,
+0.55,
+0.53,
+1.0
+]
+],
+"MAT_Cabinet": [
+"37388fd50932aabc79d5ad77b7f6e51e",
+[
+0.72,
+0.73,
+0.72,
+1.0
+]
+],
+"MAT_Concrete": [
+"5cf85e9af694a32039f5eccf4fc4acdb",
+[
+0.62,
+0.61,
+0.58,
+1.0
+]
+],
+"MAT_CTX_Bldg_Roof": [
+"39e522418697cc0e1ba06fae564a3d06",
+[
+0.62,
+0.62,
+0.6,
+1.0
+]
+],
+"MAT_CTX_Bldg_Wall": [
+"7938075ae7da524a2c50b4088780c856",
+[
+0.56,
+0.53,
+0.49,
+1.0
+]
+],
+"MAT_CTX_Canopy": [
+"1666e02d6d71433262043dafba8b746f",
+[
+0.8,
+0.8,
+0.8,
+1.0
+]
+],
+"MAT_CTX_Car_Blue": [
+"f58c72b88b076a174947708b2c493e1d",
+[
+0.04,
+0.07,
+0.18,
+1.0
+]
+],
+"MAT_CTX_Car_Glass": [
+"2cf971d89a9f00bb77cfa422716a39dc",
+[
+0.03,
+0.04,
+0.05,
+1.0
+]
+],
+"MAT_CTX_Car_Red": [
+"ab474089343bdcd8d168e562858513a3",
+[
+0.45,
+0.03,
+0.03,
+1.0
+]
+],
+"MAT_CTX_Car_Silver": [
+"9e319bee4e1b96515301c7efb69d8873",
+[
+0.45,
+0.46,
+0.47,
+1.0
+]
+],
+"MAT_CTX_Car_Tyre": [
+"a620286fa76cd88d1e8e88b97f2e965d",
+[
+0.025,
+0.025,
+0.025,
+1.0
+]
+],
+"MAT_CTX_Car_White": [
+"e9aaa7df29aaafe928b5ebf5eafb9853",
+[
+0.8,
+0.8,
+0.78,
+1.0
+]
+],
+"MAT_CTX_TreeCanopy_A": [
+"f2e50f86967d76d8d630fe11d4f59b76",
+[
+0.085,
+0.16,
+0.055,
+1.0
+]
+],
+"MAT_CTX_TreeCanopy_B": [
+"38cbf14983b16d9003a5e4be056f0cd2",
+[
+0.11,
+0.18,
+0.06,
+1.0
+]
+],
+"MAT_CTX_TreeCanopy_Pine": [
+"e2f6c20fedbc737525245325b1d3e60d",
+[
+0.055,
+0.11,
+0.06,
+1.0
+]
+],
+"MAT_CTX_TreeTrunk": [
+"7e2dfad7ec52002b0d2836f6b2613e3d",
+[
+0.2,
+0.15,
+0.1,
+1.0
+]
+],
+"MAT_Curb": [
+"33c2e1adbe1919ae7abf786346457d11",
+[
+0.39,
+0.38,
+0.35,
+1.0
+]
+],
+"MAT_DetectWarn": [
+"b206aa3ec34db4dbaddfd7762bdb7a61",
+[
+0.85,
+0.62,
+0.03,
+1.0
+]
+],
+"MAT_Embankment": [
+"29a3869c3e75e2f454799c93146aca46",
+[
+0.25,
+0.3,
+0.17,
+1.0
+]
+],
+"MAT_Grass": [
+"5ecb3566648a747ffbf42f63a58a7741",
+[
+0.06,
+0.12,
+0.03,
+1.0
+]
+],
+"MAT_GroundBox_Lid": [
+"4e25a5b77e2fdb605ddece6b5b1ca1b6",
+[
+0.25,
+0.25,
+0.25,
+1.0
+]
+],
+"MAT_Island_Concrete": [
+"27638478901985ce2912a1ca50629367",
+[
+0.3,
+0.29,
+0.27,
+1.0
+]
+],
+"MAT_Lens_Green": [
+"531b83b73596b60a5fc219ee17f8ae20",
+[
+0.02,
+0.2,
+0.1,
+1.0
+]
+],
+"MAT_Lens_Red": [
+"e999b1925d1be0d3e541e4473ba53921",
+[
+0.35,
+0.02,
+0.02,
+1.0
+]
+],
+"MAT_Lens_Yellow": [
+"906584ef1260af78c5a56363315d3bf8",
+[
+0.35,
+0.25,
+0.02,
+1.0
+]
+],
+"MAT_Lum_Lens": [
+"2781dd9bec2bf60a5dcd09ebf3a8a219",
+[
+0.85,
+0.85,
+0.8,
+1.0
+]
+],
+"MAT_P7_RZ_ADV_Edge": [
+"e9b6933758b499d604f2f59d6b8eacf6",
+[
+0.95,
+0.25,
+0.85,
+0.9
+]
+],
+"MAT_P7_RZ_ADV_Fill": [
+"3c18172a24ed7b1623707d329f3484d9",
+[
+0.95,
+0.25,
+0.85,
+0.2
+]
+],
+"MAT_P7_RZ_Label": [
+"1322973ecc2f0da4dee419a1ccb0d917",
+[
+1.0,
+1.0,
+1.0,
+1.0
+]
+],
+"MAT_P7_RZ_PR_Edge": [
+"a57f3a923bcf36bcd72c904bd06ecbe2",
+[
+0.05,
+0.75,
+0.95,
+0.9
+]
+],
+"MAT_P7_RZ_PR_Fill": [
+"855889f243584f37050c15df4cc0dc54",
+[
+0.05,
+0.75,
+0.95,
+0.2
+]
+],
+"MAT_P9_Bridge_RedStripe": [
+"e0038466155c15b897efc9987e0ce515",
+[
+0.42,
+0.05,
+0.04,
+1.0
+]
+],
+"MAT_P9_ConcretePave": [
+"de36ea8451a48527ddf19b113cba28e6",
+[
+0.3,
+0.29,
+0.27,
+1.0
+]
+],
+"MAT_P9_Mainlane": [
+"9205f2b0596584b834a74512eea06f3e",
+[
+0.3,
+0.29,
+0.27,
+1.0
+]
+],
+"MAT_P9_SlopePaving": [
+"4a76e181793d542b9705db343b3fd91f",
+[
+0.4,
+0.39,
+0.36,
+1.0
+]
+],
+"MAT_Paint_White": [
+"1e29425dbc8f924be372dd971f031670",
+[
+0.85,
+0.85,
+0.83,
+1.0
+]
+],
+"MAT_Paint_Yellow": [
+"21a385b2367cbe6c05292a49bab6ba65",
+[
+0.85,
+0.62,
+0.05,
+1.0
+]
+],
+"MAT_PedLens": [
+"e5846b7ad875f427568e93c9c42537ee",
+[
+0.06,
+0.05,
+0.04,
+1.0
+]
+],
+"MAT_Radar": [
+"92d423a5df7d87aba480f9fc9fad9bd3",
+[
+0.8,
+0.8,
+0.78,
+1.0
+]
+],
+"MAT_REF_24": [
+"b7a64c2a26a3121ea443b092456aa2d2",
+[
+0.8,
+0.8,
+0.8,
+1.0
+]
+],
+"MAT_REF_25": [
+"8607a162458fe5dda10f74d5442fcb8d",
+[
+0.8,
+0.8,
+0.8,
+1.0
+]
+],
+"MAT_REF_26": [
+"b53014781be8c39f9cd2db05d11ee3c2",
+[
+0.8,
+0.8,
+0.8,
+1.0
+]
+],
+"MAT_REF_27": [
+"507f46a49b13128845ac32ef77c3ffb3",
+[
+0.8,
+0.8,
+0.8,
+1.0
+]
+],
+"MAT_REF_38": [
+"83f5498b158b4fdd9a733b433c53c194",
+[
+0.8,
+0.8,
+0.8,
+1.0
+]
+],
+"MAT_REF_39": [
+"2e033f07ce95a4316fd2f3ebe1c7256c",
+[
+0.8,
+0.8,
+0.8,
+1.0
+]
+],
+"MAT_REF_40": [
+"60c6d2bd9deedf047c2593fc41c948d4",
+[
+0.8,
+0.8,
+0.8,
+1.0
+]
+],
+"MAT_REF_41": [
+"8600634287b57f5f021f095c121e4cd3",
+[
+0.8,
+0.8,
+0.8,
+1.0
+]
+],
+"MAT_Retro_Yellow": [
+"4a989165231e67c36bf819973ea087da",
+[
+0.95,
+0.72,
+0.02,
+1.0
+]
+],
+"MAT_RPM_White": [
+"0fc4b8b1b0ac3e2535452fcf2396d001",
+[
+0.9,
+0.9,
+0.9,
+1.0
+]
+],
+"MAT_Sidewalk": [
+"65ebe661f1e53f463d6cf5bd4b02fec5",
+[
+0.46,
+0.44,
+0.41,
+1.0
+]
+],
+"MAT_SigHead_Black": [
+"7cb8c44cd9fd3d125d6a18fbd65f01ce",
+[
+0.02,
+0.02,
+0.02,
+1.0
+]
+],
+"MAT_Sign_Black": [
+"8af193b516526856a9d541c08bef5557",
+[
+0.03,
+0.03,
+0.03,
+1.0
+]
+],
+"MAT_Sign_Green": [
+"2965f2e418c30c3ba88ab1538110f05e",
+[
+0.0,
+0.28,
+0.12,
+1.0
+]
+],
+"MAT_Sign_Red": [
+"d45f6c035913ae1955e87369015b0bfd",
+[
+0.55,
+0.02,
+0.02,
+1.0
+]
+],
+"MAT_Sign_White": [
+"604fdc7b86635188fe6648697db78ef3",
+[
+0.9,
+0.9,
+0.9,
+1.0
+]
+],
+"MAT_SigPole_Galv": [
+"a83a55968e079d21aa25b964c97e72ab",
+[
+0.55,
+0.56,
+0.57,
+1.0
+]
+]
+},
+"node_groups": {
+"P5b_RampCut": "7469a43a5d94a15098ac22b8a109425e"
+}
+}

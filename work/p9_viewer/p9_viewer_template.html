@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SH 249 at Spring Cypress Rd – signal upgrade, 3D viewer</title>
+<style>
+  :root { --ink:#1d2329; --muted:#5b6670; --line:#d5dbe0; --panel:rgba(255,255,255,0.94); --accent:#1f5f8b; --new:#1ab824; --rem:#d90f0d; }
+  html,body { margin:0; height:100%; overflow:hidden; font:13px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; color:var(--ink);
+    background:linear-gradient(#7ea6cf 0%, #b9cfe4 45%, #e3e9ee 60%, #d9d7cf 100%); }
+  #app { position:fixed; inset:0; }
+  canvas { display:block; }
+  .card { position:fixed; background:var(--panel); border:1px solid var(--line); border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,.12); }
+  .muted { color:var(--muted); font-size:11.5px; }
+  .x { position:absolute; top:6px; right:8px; border:0; background:none; font-size:18px; cursor:pointer; color:var(--muted); }
+  #panel { top:12px; left:12px; width:280px; padding:12px 14px; max-height:calc(100% - 80px); overflow:auto; }
+  #panel h1 { font-size:15px; margin:0 0 2px; padding-right:24px; }
+  #panel .sub { color:var(--muted); font-size:12px; margin-bottom:6px; }
+  #panel h2 { font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); margin:12px 0 6px; }
+  #panel-toggle { position:absolute; top:8px; right:8px; border:0; background:none; font-size:16px; cursor:pointer; color:var(--muted); }
+  body.collapsed #panel .body { display:none; }
+  .seg { display:grid; grid-auto-flow:column; grid-auto-columns:1fr; border:1px solid var(--line); border-radius:6px; overflow:hidden; }
+  .seg button { border:0; border-right:1px solid var(--line); background:#fff; padding:6px 0; font:inherit; cursor:pointer; }
+  .seg button:last-child { border-right:0; }
+  .seg button.on { background:var(--accent); color:#fff; }
+  label.row { display:flex; align-items:center; gap:7px; padding:2px 0; cursor:pointer; }
+  #layers .sw { width:10px; height:10px; border-radius:2px; display:inline-block; }
+  select, input[type=text] { width:100%; box-sizing:border-box; font:inherit; padding:5px; border:1px solid var(--line); border-radius:6px; background:#fff; }
+  input[type=range] { width:100%; }
+  .btns { display:flex; gap:6px; flex-wrap:wrap; }
+  .btns button, .btn { border:1px solid var(--line); background:#fff; border-radius:6px; padding:5px 9px; font:inherit; cursor:pointer; }
+  .btns button.on { background:var(--accent); color:#fff; border-color:var(--accent); }
+  .hint { color:var(--muted); font-size:11.5px; margin-top:8px; }
+  #link-box { display:none; margin-top:6px; font-size:11px; }
+  #link-msg { font-size:11px; color:var(--muted); }
+  #equip { max-height:230px; overflow:auto; border:1px solid var(--line); border-radius:6px; padding:4px 6px; background:#fff; }
+  #equip .eq-int { font-weight:600; margin:6px 0 2px; }
+  #equip summary { cursor:pointer; padding:2px 0; }
+  #equip summary i { width:9px; height:9px; border-radius:2px; display:inline-block; margin-right:6px; }
+  .st-new { background:var(--new); } .st-remove { background:var(--rem); } .st-remain { background:#9a9a9a; }
+  #equip button.eq { display:block; width:100%; text-align:left; border:0; background:none; padding:2px 4px 2px 16px; font:inherit; cursor:pointer; border-radius:4px; }
+  #equip button.eq:hover { background:#eef3f7; }
+  #equip button.eq small { color:var(--muted); margin-left:6px; }
+  #photo-list { display:flex; flex-direction:column; gap:6px; }
+  .photo-btn { display:flex; gap:8px; align-items:center; text-align:left; border:1px solid var(--line); background:#fff; border-radius:6px; padding:4px; font:inherit; cursor:pointer; }
+  .photo-btn img { width:84px; height:42px; object-fit:cover; border-radius:3px; }
+  .photo-btn small { color:var(--muted); }
+  #info { display:none; top:12px; right:12px; width:330px; max-height:calc(100% - 90px); overflow:auto; padding:12px 14px; }
+  #info h3 { margin:0 24px 6px 0; font-size:14px; word-break:break-all; }
+  #info .note { margin:0 0 8px; }
+  #info table, #cone-card table { border-collapse:collapse; width:100%; font-size:12px; }
+  #info th { text-align:left; color:var(--muted); font-weight:500; padding:2px 8px 2px 0; vertical-align:top; white-space:nowrap; text-transform:capitalize; }
+  #info td { padding:2px 0; word-break:break-word; }
+  #cone-card { display:none; right:12px; bottom:52px; width:330px; padding:10px 12px; }
+  #cone-card .muted { margin:4px 0 6px; }
+  #cone-card th { text-align:left; color:var(--muted); font-weight:500; font-size:11px; }
+  .okc { color:var(--new); font-weight:700; } .badc { color:var(--rem); font-weight:700; }
+  #measure { display:none; left:50%; transform:translateX(-50%); top:12px; padding:8px 14px; }
+  #legend { display:none; bottom:52px; left:308px; padding:10px 12px; }
+  body.collapsed #legend { left:12px; }
+  #legend div, #ph-legend div { display:flex; align-items:center; gap:8px; margin:3px 0; }
+  #legend i, #ph-legend i { width:14px; height:14px; border-radius:2px; display:inline-block; }
+  #disclaimer { left:50%; transform:translateX(-50%); bottom:12px; padding:6px 14px; font-weight:600; color:#7a1c12; }
+  #loading { position:fixed; inset:0; display:flex; align-items:center; justify-content:center; font-size:15px; color:var(--ink); }
+  #labels { position:fixed; inset:0; pointer-events:none; overflow:hidden; }
+  .tag { position:absolute; left:0; top:0; white-space:nowrap; margin:-11px 0 0 0; padding:1px 6px; border-radius:4px; font-size:12px; font-weight:600;
+    background:rgba(255,255,255,.92); border:1px solid var(--line); translate:-50% 0; }
+  .tag small { font-weight:400; color:var(--muted); }
+  .tag.ok { color:var(--new); } .tag.bad { color:var(--rem); }
+  .tag.meas { background:#fffbe0; border-color:#e0c200; }
+  .tag.cam { background:none; border:0; font-size:16px; }
+  #split-bar { display:none; position:fixed; top:0; bottom:0; width:0; z-index:3; }
+  #split-bar::before { content:''; position:absolute; top:0; bottom:0; left:-1px; width:3px; background:#fff; box-shadow:0 0 4px rgba(0,0,0,.5); }
+  #split-bar .grip { position:absolute; top:50%; left:-16px; width:32px; height:32px; margin-top:-16px; border-radius:50%; background:#fff; box-shadow:0 1px 5px rgba(0,0,0,.4);
+    cursor:ew-resize; display:flex; align-items:center; justify-content:center; font-size:14px; color:var(--accent); }
+  #split-bar .lab { position:absolute; top:12px; padding:3px 8px; border-radius:4px; background:rgba(255,255,255,.92); font-weight:600; white-space:nowrap; }
+  #split-bar .lab.l { right:10px; } #split-bar .lab.r { left:10px; }
+  #photo { display:none; position:fixed; inset:0; z-index:10; background:rgba(15,20,25,.92); flex-direction:column; align-items:center; justify-content:center; padding:16px; box-sizing:border-box; color:#eef2f5; }
+  #ph-head { width:min(100%, calc((100vh - 200px) * 2)); display:flex; align-items:center; gap:12px; margin-bottom:8px; flex-wrap:wrap; }
+  #ph-title { font-weight:600; font-size:14px; flex:1; }
+  #ph-stage { position:relative; width:min(100%, calc((100vh - 200px) * 2)); aspect-ratio:2/1; }
+  #ph-stage img { position:absolute; inset:0; width:100%; height:100%; display:block; }
+  #photo .seg button { background:#2a333b; color:#eef2f5; border-color:#46525c; }
+  #photo .seg { border-color:#46525c; }
+  #photo .seg button.on { background:var(--accent); }
+  #photo .btn { background:#2a333b; color:#eef2f5; border-color:#46525c; }
+  #ph-op { width:120px; }
+  #ph-foot { width:min(100%, calc((100vh - 200px) * 2)); font-size:12px; margin-top:8px; color:#c5ced6; }
+  #ph-foot a { color:#9fd0ff; }
+  #ph-legend { display:none; gap:14px; font-size:12px; }
+  #ph-x { position:absolute; top:10px; right:14px; color:#c5ced6; font-size:26px; }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<div id="labels"></div>
+<div id="loading">Loading…</div>
+<div id="split-bar"><span class="lab l">Existing</span><span class="lab r">Proposed</span><div class="grip">⇔</div></div>
+<div id="panel" class="card">
+  <button id="panel-toggle" title="Show/hide panel">☰</button>
+  <h1>SH 249 at Spring Cypress Rd</h1>
+  <div class="sub">Traffic signal upgrade · CSJ 0720-03-153</div>
+  <div class="body">
+    <h2>View</h2>
+    <div id="modes" class="seg">
+      <button data-mode="existing">Existing</button><button data-mode="proposed">Proposed</button><button data-mode="both">Both</button><button data-mode="change">Change</button>
+    </div>
+    <label class="row" style="margin-top:6px"><input type="checkbox" id="split-cb">Split view: Existing | Proposed (drag the divider)</label>
+    <h2>Layers</h2>
+    <div id="layers">
+      <label class="row"><input type="checkbox" data-layer="existing"><span class="sw" style="background:#b9554a"></span>Existing signals &amp; markings</label>
+      <label class="row"><input type="checkbox" data-layer="proposed"><span class="sw" style="background:#3c9a4a"></span>Proposed signals, markings &amp; ramps</label>
+      <label class="row"><input type="checkbox" data-layer="roadway"><span class="sw" style="background:#555"></span>Roadway surfaces</label>
+      <label class="row"><input type="checkbox" data-layer="context"><span class="sw" style="background:#9aa39a"></span>Context (bridge, buildings, trees, cars)</label>
+      <label class="row"><input type="checkbox" data-layer="aerial"><span class="sw" style="background:#a9b48c"></span>Aerial (NAIP 2022)</label>
+      <label class="row"><input type="checkbox" data-layer="radar"><span class="sw" style="background:linear-gradient(90deg,#0dbff2 50%,#f240d9 50%)"></span>Radar detection zones</label>
+      <label class="row"><input type="checkbox" data-layer="photos"><span class="sw" style="background:#ff7a00"></span>Photo locations (Mapillary)</label>
+    </div>
+    <h2>Plan sheets on the ground</h2>
+    <select id="sheets">
+      <option value="off">Off</option><option value="signal">Signal sheets (24–27)</option><option value="markings">Marking sheets (38–41)</option><option value="both">Both</option>
+    </select>
+    <div class="muted" style="margin-top:4px">Existing sheets in Existing mode, proposed sheets otherwise. Opacity:</div>
+    <input type="range" id="sheet-op" min="0.1" max="1" step="0.05">
+    <h2>Camera</h2>
+    <select id="views"></select>
+    <label class="row" style="margin-top:6px"><input type="checkbox" id="cones-cb">Driver views: show the MUTCD 4D cone and head checks</label>
+    <div class="btns" style="margin-top:6px"><button id="copy-link">Copy link to this view</button></div>
+    <input type="text" id="link-box" readonly><div id="link-msg"></div>
+    <h2>Tools</h2>
+    <div id="tools" class="btns"><button data-tool="dist">Measure distance</button><button data-tool="clear">Vertical clearance</button></div>
+    <h2>Equipment</h2>
+    <div id="equip"></div>
+    <h2>Street photos (Mapillary, Nov 2026)</h2>
+    <div id="photo-list"></div>
+    <div class="hint">Drag to orbit · right-drag or Shift-drag to pan · scroll to zoom · click an object for its plan callout · Esc closes a tool or photo.</div>
+  </div>
+</div>
+<div id="info" class="card"></div>
+<div id="measure" class="card"></div>
+<div id="cone-card" class="card"></div>
+<div id="legend" class="card">
+  <div><i style="background:#d90f0d"></i>Removed (existing, to be removed)</div>
+  <div><i style="background:#1ab824"></i>New (proposed)</div>
+  <div><i style="background:#9a9a9a"></i>Unchanged (remaining, roadway, context)</div>
+</div>
+<div id="photo">
+  <button id="ph-x" class="x" title="Close (Esc)">×</button>
+  <div id="ph-head">
+    <div id="ph-title"></div>
+    <div id="ph-layers" class="seg" style="width:340px"><button data-layer="photo">Photo</button><button data-layer="existing">Existing model</button><button data-layer="proposed">Proposed</button></div>
+    <label>Overlay <input type="range" id="ph-op" min="0" max="1" step="0.05" value="1"></label>
+    <button class="btn" id="ph-3d">Same view in 3D</button>
+  </div>
+  <div id="ph-stage"><img id="ph-img" alt="Street photo"><img id="ph-ov" alt=""></div>
+  <div id="ph-foot">
+    <div id="ph-legend"><div><i style="background:#47d36a"></i>New</div><div><i style="background:#fff;border:2px solid #e61414;box-sizing:border-box"></i>Removed (outline)</div><div><i style="background:#b8bcc0"></i>Remaining</div></div>
+    <div id="ph-credit"></div><div id="ph-note" style="margin-top:4px"></div>
+  </div>
+</div>
+<div id="disclaimer" class="card">For illustration only – not for construction</div>
+<script id="cam-data" type="application/json">/*CAMS*/</script>
+<script id="extra-data" type="application/json">/*DATA*/</script>
+<script id="glb-data" type="application/octet-stream">/*GLB*/</script>
+<script>/*BUNDLE*/</script>
+</body>
+</html>
